@@ -1,0 +1,2608 @@
+{
+  "markdown": "<a id='03fa8a9e-94f8-4456-b97c-b53501db25ba'></a>\n\nAdopting Wind-Assisted Ship\nPropulsion Technologies as Fleet\nRetrofit\n\n<a id='116e6c53-0bb1-49b4-b569-da10041167c4'></a>\n\nThis report examines the adoption of wind-assisted ship propulsion technologies (WPTs) as a retrofit option for existing maritime fleets. Using an agent-based modeling approach, it explores how different policy and market scenarios impact the uptake of WPT retrofitting solutions. The study incorporates real-world data on technology costs, fuel savings, and vessel features to model three WPT options. Insights from simulations identify effective policies and potential alternative business models to reduce barriers to WPT adoption in the shipping industry.\n\n<a id='8692aa0d-d642-470f-82de-f600bb67b1be'></a>\n\nby Eliseo Curcio\n\n<a id='7725ada8-bb96-4fc1-8387-185cca335494'></a>\n\nIntroduction to Maritime Industry Emissions\n\n<a id='d1ce2911-19e5-4a29-ac0e-6e73ce027a8d'></a>\n\nThe maritime industry is a major contributor to global warming, responsible for 2.4% of global CO2 emissions. The International Maritime Organization (IMO) aims to reduce greenhouse gas emissions by 50% compared to 2008 levels before 2050. To reach this goal, the IMO relies on technological measures, operational measures, and market-based measures.\n\n<a id='42640ff6-bfed-4894-b9c7-9d3bd66118f2'></a>\n\nRelevant policy measures include:\n\n* Employment of the Energy Efficiency Design Index (EEDI)\n* Energy Efficiency existing ship Index (EEXI)\n* Potential inclusion of shipping in the EU ETS directive\n* Mandatory fuel records and reports of oil consumption for ships above 5000 gross tonnage\n\n<a id='85025297-6d85-45e2-b85b-60e67ead05e4'></a>\n\nThe EEDI is the most important measure to tackle CO2 emissions from shipping, requiring new ship builds after 2013 to implement carbon reduction technical measures. The EEXI expanded this requirement to all ships above 5000 GT in 2021.\n\n<a id='1a7597af-6cf3-48af-8d55-8d363712fd34'></a>\n\nCleaner Shipping and Alternative Fuels\n\n<a id='62d4d1b1-a718-4f24-aae7-905e494a5148'></a>\n\nCleaner shipping encompasses strategies to comply with international commitments to reduce carbon footprints and emissions from seaborne transportation operations. Historically, petroleum derivatives have been the primary fuel for internal combustion engines on ships. However, recent literature has focused on alternative, low- and zero-carbon, or \"greener\" fuels.\n\n<a id='4c0ab35a-739f-4663-ae4d-b4b2230b7c32'></a>\n\nAlternative fuel options include:\n* Biofuels and liquefied biogas (LBG)\n* Liquefied natural gas (LNG)\n* Hydrogen and ammonia\n* Wind-assisted shipping propulsion technologies (WPTs)\n\n<a id='e22c08c4-7909-46bd-9936-2701dcae09cb'></a>\n\nWPTs comprise a possible technical alternative for the decarbonization of shipping as a complementary propulsion system to batteries or fossil fuel propulsion systems.\n\n<a id='26619028-f515-44b8-86f7-52fe42f3d6af'></a>\n\nWind-Assisted Propulsion Technologies\n(WPTs)\n\n<a id='5b1916a1-0028-466f-9c89-d02cd53914a3'></a>\n\nWind-assisted propulsion technologies (WPTs) have re-emerged as a potential solution for decarbonizing shipping. Wind is considered a free and renewable source of energy, giving it a comparative advantage over other emerging \"cleaner\" propulsion technologies in shipping.\n\n<a id='95b3ec38-3e61-4198-a9fd-b46616d66c48'></a>\n\n<::\n: flowchart::>\n1. **Ancient Technology**\nThe use of wind propulsion for ships is an ancient technological development.\n2. **Re-emergence**\nWPTs have re-emerged in line with the need to decarbonize shipping.\n3. **Modern Adaptation**\nA variety of modernized wind propulsion devices are being developed with the primary purpose of reducing fuel consumption and air polluting emissions.\n4. **Hybridization**\nWPTs are now primarily considered as a retrofit option in existing ships to reduce fuel consumption, rather than as the main form of propulsion.\n\n<a id='daa593ab-e716-4198-8e02-e6dcbec7831c'></a>\n\nHybridization is considered key for the further adoption of WPTs in shipping fleets, with wind propulsion assisting the main diesel or bio-diesel engines to ensure schedules are maintained.\n\n<a id='6b1d8c4a-0744-40eb-99e9-cc4f5b2f2e16'></a>\n\nTypes of Wind-Assisted Propulsion\nTechnologies\n\n<a id='bf1e1dcb-ac7a-4330-b4dc-bc5894f43d0f'></a>\n\nCommercially available WPTs can be grouped into three main categories:\n\n<a id='668545c0-9a63-425f-a6b7-9c4b0f382657'></a>\n\n# Towing Kites\nAllows the ship to benefit from\nwind lift at high altitudes.\nExamples include prototypes\ncreated by suppliers such as\nSkySails in the early 2010s.\n\n<a id='ba4979b3-5942-4913-bd62-fa14147f3adb'></a>\n\n# Sails\n\nIncludes both rigid and soft sails, which are variations of traditional sails but with modern features. Examples include JAMDA and Walker wingsail-type rigid sails, suction wings, and soft sails like PintaRig and DynaRig.\n\n<a id='012fec66-7030-4f5b-9712-44fe5283b687'></a>\n\n## Flettner Rotors\nThe most commercially diffuse\nWPT. Works under the Magnus\neffect, generating lifting and\ndrag forces in the spinning\nelectric motor-aided cylinder\naboard the vessel.\n\n<a id='3f0b9b53-0a38-4a51-9e32-577b1670cc9c'></a>\n\nOther reported but less diffused technologies in commercial shipping include wind turbines and hull sails.\n\n<a id='f3048ead-3aa9-4dc0-b5e5-87a1930f962c'></a>\n\nTowing Kites\n\n<a id='edf47df9-2b4b-41a0-a5a4-4558ec4f2df6'></a>\n\nTowing kites are a type of wind-assisted propulsion technology that allows ships to benefit from wind lift at high altitudes. The name was used for a number of prototypes created by suppliers such as SkySails in the early 2010s.\n\n<a id='a8815cb3-df87-4f7e-8098-be2600e21b93'></a>\n\nA recent study by Zhang et al. (2021) compared the economic and technical feasibility of installing towing kites on a ship's bow (parafoils) with the use of Flettner rotors. The study considered the following parameters:\n\n* Route: Gibraltar to Panama round trip\n* Ship type: Supramax bulk carrier\n* Engine type: MAN 6S50ME-B9\n* Cruise speed: 14.4 knots\n* Load: 82.9%\n* Daily fuel consumption: 25 tonnes\n\n<a id='b6d2128d-855b-4238-a50b-2d4af027f738'></a>\n\nThe simulation reported a fuel saving of around 1% for towing kites. The study also highlighted the potential of combining weather routing tools with WPTs as a way to increase fuel savings.\n\n<a id='c0aebeaf-38fa-437b-814f-27390e60727d'></a>\n\nSails: Rigid and Soft\n\n<a id='bbb5531e-b8f3-4695-8747-86e55e5a687e'></a>\n\nSails comprise both rigid and soft variations, which are modern adaptations of traditional sails. Several rigid sail models have been considered in the literature, including:\n\n<a id='3546cbb8-38ae-41e2-9ea5-e6fe47c35817'></a>\n\n- Japan Marine Machinery Development Association (JAMDA) sails\n- Walker wingsail-type rigid sails\n- Suction wings (e.g., Econowind's Ventifoil model)\n\n<a id='0f46133b-b0f4-439e-af33-d484819f4b93'></a>\n\nSoft sails include models such as:\n* PintaRig\n* DynaRig\n* Delta-wing sails\n* FastRigs\n\n<a id='379c5a5c-105d-48fd-b750-bc786c42e157'></a>\n\nRigid sails in the 1980s yielded a fuel consumption reduction of between 10% and 30% in wind favorable conditions. DynaRig is gaining popularity due to its maneuverability and safety characteristics.\n\n<a id='0f592a08-6377-4289-ba63-6997b28506ec'></a>\n\nHybrid sail concepts, which incorporate design components of both soft and rigid sails, have also been developed.\nExamples include the Japanese National Maritime Research Institute's hybrid sail concept and the DynaRig.\nHowever, these concepts are not currently considered commercially viable due to their high costs.\n\n<a id='0543c811-943c-4fc5-b2ba-b8a1dd91cd73'></a>\n\nFlettner Rotors\n\n<a id='56b17e74-6c20-4727-9339-7c23e1614744'></a>\n\nFlettner rotors are the most commercially diffuse wind-assisted propulsion technology. This technology originated 100 years ago as a result of tests with the ships Buckau and Barbara. Flettner rotors work under the Magnus effect, which generates lifting and drag forces in the spinning electric motor-aided cylinder aboard the vessel.\n\n<a id='a9c14483-ecff-4466-872c-57136422780d'></a>\n\nKey points about Flettner rotors:\n\n* Extensively simulated and well-known by policymakers\n* Research has been conducted on several parameters influencing aerodynamic performance, including velocity ratio, endplate size, and aspect ratio\n* Real-life experiments and desk studies have reported on the inclusion of several Flettner rotors in the installation layout to boost fuel saving potential\n* Some dry bulkers require tiltable Flettner rotors to avoid conflict with hatches, cranes, or other port-related infrastructure\n* Studies have concluded that their use could lead to large potential savings in installation and maintenance costs of up to 40% considering different routes and sailing conditions\n\n<a id='c46acb32-75b1-4e80-9c0e-c69d08c537be'></a>\n\nFactors Affecting WPT Performance\n\n<a id='1b3790cd-b26c-4afc-970f-746f9be4bd1b'></a>\n\nThe fuel savings and performance of wind propulsion devices on ships depend on several factors:\n\n<a id='8bec0a31-7e41-44db-957c-552b26e38dab'></a>\n\n# Ship Design\n\nThe rig and hull design of the ship can significantly impact the effectiveness of WPTs. Some designs may be more conducive to certain types of wind propulsion technologies.\n\n<a id='377a9cb5-37f9-46aa-95e1-af6cb476ea41'></a>\n\n# Operation Speed\n\nThe speed at which the ship operates affects the potential fuel savings from WPTs. Generally, lower speeds allow for greater relative contributions from wind propulsion.\n\n<a id='036f3255-8e61-4a2a-b35d-22d0f9a66060'></a>\n\n# Wind Conditions\n\nWind speeds and directions play a crucial role in the performance of WPTs. Favorable wind conditions can significantly increase fuel savings, while unfavorable conditions may limit their effectiveness.\n\n<a id='9dd17a55-7139-417e-823a-00cd3af4056f'></a>\n\nThe IMO Marine Environment Protection Committee (MEPC) concluded that WPTs can be accommodated as an auxiliary source of power in the calculation of EEDI and EEXI. This recognition highlights the potential role of WPTs in the IMO strategy to reduce greenhouse gas emissions of international shipping.\n\n<a id='76bf29ec-f165-4991-9fb2-5a0493dafe92'></a>\n\nEconomic Considerations for WPT Adoption\n\n<a id='425c4b11-5ca9-489c-9c9b-92b95ee2a704'></a>\n\nThe financial appeal of reducing operational costs is a key driver for shipping companies to embrace wind propulsion. Several studies have calculated the potential economic benefits of WPTs. Common conclusions include:\n\n* Fuel prices need to be high for WPT solutions to be competitive\n* The type of vessel is important when it comes to financial benefits, with particular reference to ocean-going low-speed bulk carriers and oil tankers\n* The capacity of vessels to accommodate additional wind propulsion structures on deck is a technical consideration\n\n<a id='16472cf0-9555-4529-ab06-1caae4451661'></a>\n\nHowever, several barriers hinder the uptake of WPTs:\n\n<a id='e0211ba9-ee95-4268-a39b-f8c812c18ba0'></a>\n\n1 Financial Constraints\n\nCost and access to capital, as well as economic constraints, can limit investment in WPTs.\n\n<a id='e7479f14-e8c9-44f8-be15-c60f81b6a413'></a>\n\n3 Technical Uncertainties\nLack of trusted information, safety and reliability concerns, and technical uncertainties can deter adoption.\n\n<a id='027867e6-7afb-469f-948c-7b352919aaad'></a>\n\n## 2 Market Factors\n\nMarket constraints and split incentives between charterers and shipowners can complicate the decision to adopt WPTs.\n\n<a id='918d6dc2-dcc9-4428-8dbd-04c30d9d7f05'></a>\n\n4 Institutional Barriers\n\nRegulations in place and poor knowledge infrastructure can slow the adoption of WPTs.\n\n<a id='fa32bd57-170c-4a67-b9c5-3758f21b4c8c'></a>\n\nAgent-Based Modeling for WPT Adoption\n\n<a id='1bc0ca22-b3a4-4241-8248-e73047bb53ae'></a>\n\nAgent-based modeling (ABM) is an increasingly popular research method for analyzing the adoption of green products and eco-innovations. ABM originates from complex systems theories, based on the principles that rules governing the behavior of agents at the micro level can concatenate to simulate what happens at a macro scale.\n\n<a id='de5052bf-1b98-4591-9243-d210509b207e'></a>\n\nKey features of ABM for modeling WPT adoption:\n\n* Allows consideration of heterogeneity among technology suppliers and adopters\n* Enables observation of aggregated micro-level interactions at the macro-level, where policy effects are primarily observed\n* Facilitates the simulation of network effects and word-of-mouth processes\n* Provides flexibility to understand the effects of given combinations of market and political conditions\n\n<a id='3149a6ad-f520-4018-9958-15e202f26a33'></a>\n\nIn the context of WPT adoption, ABM can be used to simulate how different policy interventions and market scenarios impact the decisions of shipowners to adopt wind-assisted propulsion technologies.\n\n<a id='3e81b93f-5963-4485-a822-62e02140c897'></a>\n\n<::transcription of the content\n: abstract background image::>\n\n<a id='ebd73f70-264d-4ebf-bc9f-30e8f70652ba'></a>\n\nModel Structure and Features\n\n<a id='3dae6ebb-fe92-4a11-8be3-443980add60e'></a>\n\nThe agent-based model developed for this study represents a population of vessels with heterogeneous features and a set of WPT options. The model simulates WPT adoption over time, with each time step representing one month.\n\n<a id='d574bbef-659a-4885-b045-de593e31ca18'></a>\n\nKey components of the model:\n\n<a id='80acb0ef-7545-430d-b08c-dd9828a8eb71'></a>\n\n**Vessel Population**\n\nIncludes heterogeneous vessels\nbelonging to different shipowners, with\nfeatures such as age, fuel\nconsumption, and awareness of WPT.\n\n<a id='2606e714-2d45-4f12-9f72-0570deef645b'></a>\n\n# WPT Options\nDefines a set of wind-based clean\ntechnological options, each with\nmaintenance costs, installation costs,\nand fuel consumption reduction ratios.\n\n<a id='f59cdf21-3d1c-421d-8374-5c9f2be320bf'></a>\n\n## Social Network\n\nConnects vessels through an artificial social network to simulate word-of-mouth processes.\n\n<a id='8990aab4-8075-46c8-a5c7-0123b4eeba1b'></a>\n\n**Awareness Mechanism**\nUses the Bass diffusion model to\nsimulate the spread of awareness\nabout WPT innovations.\n\n<a id='f4bd27a6-c183-4d8d-b18b-df3015cfdf1a'></a>\n\nThe model has two main stages: eco-innovation awareness and utility-based vessel adoption of a WPT option. This structure allows for a more nuanced representation of the adoption process.\n\n<a id='1f3e5cc8-bfa5-44b2-b344-82160a026f78'></a>\n\nDecision-Making Process for WPT Adoption\n\n<a id='f17cfc81-bf06-468e-aab5-aac2510b4846'></a>\n\nThe model incorporates a decision-making process for vessels to choose among available WPT options. This process is based on the following steps:\n\n<a id='baf6b5f2-5449-4505-8245-beb8f14ce619'></a>\n\n<table id=\"12-1\">\n<tr><td id=\"12-2\">1</td><td id=\"12-3\">Operational Status Check The vessel must be operating within its lifetime (remaining years of operation > 0).</td></tr>\n<tr><td id=\"12-4\">2</td><td id=\"12-5\">Awareness Check The vessel must be aware of the WPT options (awareness = 1).</td></tr>\n<tr><td id=\"12-6\">3</td><td id=\"12-7\">Utility Calculation The model calculates the expected net present value (NPV) for each WPT option for the vessel.</td></tr>\n<tr><td id=\"12-8\">4</td><td id=\"12-9\">Option Evaluation If any options have a positive utility value, the vessel calculates the probability of acquiring each option.</td></tr>\n<tr><td id=\"12-a\">5</td><td id=\"12-b\">Selection The vessel selects a WPT option based on the calculated probabilities, with higher utility values having a higher chance of being chosen.</td></tr>\n</table>\n\n<a id='7243a371-30fe-4c98-8807-032af7a6fb99'></a>\n\nThis decision-making process allows for a realistic representation of how shipowners might evaluate and choose among different WPT options based on their specific vessel characteristics and economic considerations.\n\n<a id='d5c55ef4-bcab-40dc-a632-70c5da95d08d'></a>\n\nData Sources and Experimental Setup\n\n<a id='7b04a5e2-9863-4d26-97ae-d5b92e3c5aeb'></a>\n\nThe study incorporates real-world data from various sources to ensure the model's relevance and accuracy:\n\n* WPT option data: Collected from the Wind Assisted Ship Propulsion (WASP) project, funded by the EU, for three alternatives: Flettner rotors, Ventifoil, and wingsail technologies.\n* Vessel data: Extracted from the Clarksons database, focusing on all types of vessels with dead-weight tonnage from 2,000 to 6,500.\n* Fuel price data: Set to 500 €/mt at the beginning of simulations, based on Clarkson's study and internal data from WASP project pilot ships.\n\n<a id='ff712eae-a7f8-4949-a526-0ab667447f7d'></a>\n\nExperimental setup details:\n\n* Java-based simulation software platform\n* 30 independent Monte Carlo realizations with different random seeds\n* 360 synchronous time steps (30 years of simulation)\n* Maximum vessel lifetime set to 30 years\n* Two fuel pricing scenarios: monthly-based pessimistic and yearly-based less pessimistic\n\n<a id='8f0e6d31-32af-4c54-bcad-fa697c64c0e3'></a>\n\nThis combination of real-world data and carefully designed experimental parameters ensures that the model provides meaningful insights into WPT adoption dynamics.\n\n<a id='f20f142c-0599-4995-a70c-8bf0d899ef52'></a>\n\nModel Validation and Calibration\n\n<a id='f0f138c2-39fd-4f1b-9170-3b58db8f7855'></a>\n\nThe model's diffusion dynamics were validated and calibrated using the following approach:\n\n1. Bass model parameters (p̂ and q̂) were calibrated based on previous literature on energy efficient technologies and eco-innovations.\n2. Different scale-free social network densities were compared to understand their impact on technology awareness diffusion.\n3. Initial awareness rates of the population were varied to assess their effect on adoption patterns.\n4. The calibrated values for p̂ and q̂ were set to 0.00118 and 0.039, respectively.\n5. A network with m = 4 (SF4) was chosen for the study to avoid extreme diffusion results with a low initial awareness of 1%.\n\n<a id='ccf48934-20f4-48e5-8be8-d43402c32aae'></a>\n\nThe validation process ensured that the diffusion process of awareness had a shape similar to that reported in comparable energy markets, providing confidence in the model's ability to simulate realistic adoption patterns.\n\n<a id='31f62638-afc4-4a6e-802a-47ca83a97d29'></a>\n\nKey Findings: Baseline Scenario\n\n<a id='e3eb43ea-7e83-4485-9710-4d3c6ed5d16a'></a>\n\nThe study evaluated WPT adoption under a baseline scenario with no interventions. Key findings include:\n\n<a id='18e55cc2-fae6-4a5b-866d-0ceef234a6d5'></a>\n\n1 Low Adoption Levels\nWithout interventions, adoption of all three WPT\noptions was very limited over the 30-year\nsimulation period.\n\n<a id='e6529a12-403c-41c0-8e9a-cf067aeb324f'></a>\n\n## 2 Wingsail Preference\nThe Wingsail option was the most successful technology, but its maximum adoption rate was only 4.1% (250 vessels out of 6,009) after 30 years.\n\n<a id='bcbf2db3-2b27-4042-97c9-2976e41e4f6e'></a>\n\n3 Fuel Price Impact\nHigher adoption rates were observed in the monthly updated fuel price scenario, which resulted in higher prices over time.\n\n<a id='ae64b7b7-25d3-4392-94d2-51a2f448c963'></a>\n\n4 Sailing Distance Effect\nLonger sailing distances (e.g., 60,000 nm) led to higher adoption rates, as fuel savings from WPT adoption become more significant.\n\n<a id='050ccfb6-b2aa-427c-93b4-bd3f44ba5c91'></a>\n\nThese findings highlight the challenges of WPT adoption without supportive policies or market interventions.\n\n<a id='22577e9a-7672-409f-bf01-eb500a8966b9'></a>\n\nPolicy Interventions and Their Effects\n\n<a id='497e034f-e33e-4446-ae5d-e387763c0b6b'></a>\n\nThe study explored the effects of various policy interventions on WPT adoption:\n\n<a id='a852e26c-a1e5-4976-b4af-da9da5723f38'></a>\n\n# Installation Cost Subsidies\n\nProviding subsidies to reduce the initial capital or installation costs of WPT options. This intervention had a significant impact on adoption rates, particularly when subsidies were high.\n\n<a id='b892104f-7f7e-4581-a033-938080e3190e'></a>\n\n# Fuel Consumption Tax\n\nApplying a tax on each metric ton of fuel used by vessels. This intervention had a less pronounced effect compared to installation cost subsidies.\n\n<a id='af4b19fb-4dfe-428c-9598-28753f0a73b8'></a>\n\n**Increased Networking**\n\nRaising the initial awareness level of WPT technologies through networking activities. This intervention, combined with other policies, led to increased adoption rates and shifts in technology preferences.\n\n<a id='73bb31d7-1858-48a6-8393-0db1e057b5c1'></a>\n\nKey findings from policy intervention simulations:\n\n* Installation cost subsidies were more effective than fuel taxes in promoting WPT adoption.\n* High subsidies led to increased adoption of the Wingsail option, while mid-range subsidies favored the Ventifoil option.\n* Combining networking effects with installation subsidies resulted in adoption rates of up to 50% for certain WPT options.\n* Increased awareness through networking tended to favor the adoption of cheaper WPT options.\n\n<a id='234244b9-b1b6-4139-9f35-5cc08da3100f'></a>\n\nThese results provide valuable insights for policymakers and industry stakeholders on effective strategies to promote WPT adoption in the shipping industry.\n\n<a id='68551efc-5e4c-4743-a803-2eb88377f9ad'></a>\n\nConclusions and Future Work\n\n<a id='197f12bd-b5ad-4f6a-94dc-733817202e01'></a>\n\nThe study's main conclusions include:\n\n* Without interventions, WPT adoption remains very limited (under 5%) over a 30-year period.\n* Installation cost subsidies are more effective than fuel taxes in promoting WPT adoption.\n* A combination of networking effects and installation subsidies can result in adoption rates of up to 50% for certain WPT options.\n* Increasing awareness through networking tends to favor the adoption of cheaper WPT options.\n\n<a id='5ec98507-e35a-434b-818b-af37f3eccfbf'></a>\n\nFuture research directions include:\n\n1 **Model Extension**\nIncorporating other non-WPT options in the set of\navailable technologies for vessels.\n\n<a id='ce02ff8c-4b08-4014-980e-70aaac719224'></a>\n\n3 Business Model Innovation\nStudying new ways of applying the product-service business model to generate higher WPT adoption rates in the retrofit maritime industry.\n\n<a id='8950dd44-0de1-462d-9894-a0b8bd4fcf2f'></a>\n\n## 2 Theoretical Modeling\n\nEmploying evolutionary game theory to include decisions from stakeholders in the maritime industry.\n\n<a id='38811785-b91e-4834-8e4a-bceef2125c1d'></a>\n\n4 Policy Optimization\nFurther exploring optimal combinations of policies and incentives to maximize WPT adoption while minimizing costs.\n\n<a id='f17dbc36-28e6-4b08-bbd8-81a0a9ae6d8d'></a>\n\nThese findings and future research directions provide valuable insights for policymakers, industry stakeholders,\nand researchers working towards the decarbonization of the maritime industry through the adoption of wind-\nassisted propulsion technologies.",
+  "chunks": [
+    {
+      "markdown": "<a id='03fa8a9e-94f8-4456-b97c-b53501db25ba'></a>\n\nAdopting Wind-Assisted Ship\nPropulsion Technologies as Fleet\nRetrofit",
+      "type": "text",
+      "id": "03fa8a9e-94f8-4456-b97c-b53501db25ba",
+      "grounding": {
+        "box": {
+          "left": 0.0775521993637085,
+          "top": 0.14893047511577606,
+          "right": 0.9186930060386658,
+          "bottom": 0.5091692209243774
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='116e6c53-0bb1-49b4-b569-da10041167c4'></a>\n\nThis report examines the adoption of wind-assisted ship propulsion technologies (WPTs) as a retrofit option for existing maritime fleets. Using an agent-based modeling approach, it explores how different policy and market scenarios impact the uptake of WPT retrofitting solutions. The study incorporates real-world data on technology costs, fuel savings, and vessel features to model three WPT options. Insights from simulations identify effective policies and potential alternative business models to reduce barriers to WPT adoption in the shipping industry.",
+      "type": "text",
+      "id": "116e6c53-0bb1-49b4-b569-da10041167c4",
+      "grounding": {
+        "box": {
+          "left": 0.08099925518035889,
+          "top": 0.5473721623420715,
+          "right": 0.8929821848869324,
+          "bottom": 0.7780997157096863
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='8692aa0d-d642-470f-82de-f600bb67b1be'></a>\n\nby Eliseo Curcio",
+      "type": "text",
+      "id": "8692aa0d-d642-470f-82de-f600bb67b1be",
+      "grounding": {
+        "box": {
+          "left": 0.0808180645108223,
+          "top": 0.7896820306777954,
+          "right": 0.2785990238189697,
+          "bottom": 0.8592180013656616
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='7725ada8-bb96-4fc1-8387-185cca335494'></a>\n\nIntroduction to Maritime Industry Emissions",
+      "type": "text",
+      "id": "7725ada8-bb96-4fc1-8387-185cca335494",
+      "grounding": {
+        "box": {
+          "left": 0.0829862654209137,
+          "top": 0.11433578282594681,
+          "right": 0.9170607328414917,
+          "bottom": 0.20187163352966309
+        },
+        "page": 1
+      }
+    },
+    {
+      "markdown": "<a id='d1ce2911-19e5-4a29-ac0e-6e73ce027a8d'></a>\n\nThe maritime industry is a major contributor to global warming, responsible for 2.4% of global CO2 emissions. The International Maritime Organization (IMO) aims to reduce greenhouse gas emissions by 50% compared to 2008 levels before 2050. To reach this goal, the IMO relies on technological measures, operational measures, and market-based measures.",
+      "type": "text",
+      "id": "d1ce2911-19e5-4a29-ac0e-6e73ce027a8d",
+      "grounding": {
+        "box": {
+          "left": 0.08276620507240295,
+          "top": 0.25232118368148804,
+          "right": 0.9085586071014404,
+          "bottom": 0.42600011825561523
+        },
+        "page": 1
+      }
+    },
+    {
+      "markdown": "<a id='42640ff6-bfed-4894-b9c7-9d3bd66118f2'></a>\n\nRelevant policy measures include:\n\n* Employment of the Energy Efficiency Design Index (EEDI)\n* Energy Efficiency existing ship Index (EEXI)\n* Potential inclusion of shipping in the EU ETS directive\n* Mandatory fuel records and reports of oil consumption for ships above 5000 gross tonnage",
+      "type": "text",
+      "id": "42640ff6-bfed-4894-b9c7-9d3bd66118f2",
+      "grounding": {
+        "box": {
+          "left": 0.08324003219604492,
+          "top": 0.4529062509536743,
+          "right": 0.7701562643051147,
+          "bottom": 0.7332427501678467
+        },
+        "page": 1
+      }
+    },
+    {
+      "markdown": "<a id='85025297-6d85-45e2-b85b-60e67ead05e4'></a>\n\nThe EEDI is the most important measure to tackle CO2 emissions from shipping, requiring new ship builds after 2013 to implement carbon reduction technical measures. The EEXI expanded this requirement to all ships above 5000 GT in 2021.",
+      "type": "text",
+      "id": "85025297-6d85-45e2-b85b-60e67ead05e4",
+      "grounding": {
+        "box": {
+          "left": 0.08341485261917114,
+          "top": 0.7543486952781677,
+          "right": 0.8910272717475891,
+          "bottom": 0.886639416217804
+        },
+        "page": 1
+      }
+    },
+    {
+      "markdown": "<a id='1a7597af-6cf3-48af-8d55-8d363712fd34'></a>\n\nCleaner Shipping and Alternative Fuels",
+      "type": "text",
+      "id": "1a7597af-6cf3-48af-8d55-8d363712fd34",
+      "grounding": {
+        "box": {
+          "left": 0.08177649974822998,
+          "top": 0.1276465803384781,
+          "right": 0.8101648092269897,
+          "bottom": 0.23087157309055328
+        },
+        "page": 2
+      }
+    },
+    {
+      "markdown": "<a id='62d4d1b1-a718-4f24-aae7-905e494a5148'></a>\n\nCleaner shipping encompasses strategies to comply with international commitments to reduce carbon footprints and emissions from seaborne transportation operations. Historically, petroleum derivatives have been the primary fuel for internal combustion engines on ships. However, recent literature has focused on alternative, low- and zero-carbon, or \"greener\" fuels.",
+      "type": "text",
+      "id": "62d4d1b1-a718-4f24-aae7-905e494a5148",
+      "grounding": {
+        "box": {
+          "left": 0.08170205354690552,
+          "top": 0.2717629075050354,
+          "right": 0.9107925295829773,
+          "bottom": 0.4512205719947815
+        },
+        "page": 2
+      }
+    },
+    {
+      "markdown": "<a id='4c0ab35a-739f-4663-ae4d-b4b2230b7c32'></a>\n\nAlternative fuel options include:\n* Biofuels and liquefied biogas (LBG)\n* Liquefied natural gas (LNG)\n* Hydrogen and ammonia\n* Wind-assisted shipping propulsion technologies (WPTs)",
+      "type": "text",
+      "id": "4c0ab35a-739f-4663-ae4d-b4b2230b7c32",
+      "grounding": {
+        "box": {
+          "left": 0.08319143950939178,
+          "top": 0.47388023138046265,
+          "right": 0.5189694166183472,
+          "bottom": 0.7538971304893494
+        },
+        "page": 2
+      }
+    },
+    {
+      "markdown": "<a id='e22c08c4-7909-46bd-9936-2701dcae09cb'></a>\n\nWPTs comprise a possible technical alternative for the decarbonization of shipping as a complementary propulsion system to batteries or fossil fuel propulsion systems.",
+      "type": "text",
+      "id": "e22c08c4-7909-46bd-9936-2701dcae09cb",
+      "grounding": {
+        "box": {
+          "left": 0.08324381709098816,
+          "top": 0.775057852268219,
+          "right": 0.912589430809021,
+          "bottom": 0.8681847453117371
+        },
+        "page": 2
+      }
+    },
+    {
+      "markdown": "<a id='26619028-f515-44b8-86f7-52fe42f3d6af'></a>\n\nWind-Assisted Propulsion Technologies\n(WPTs)",
+      "type": "text",
+      "id": "26619028-f515-44b8-86f7-52fe42f3d6af",
+      "grounding": {
+        "box": {
+          "left": 0.08084651827812195,
+          "top": 0.05061943084001541,
+          "right": 0.8216735124588013,
+          "bottom": 0.19820737838745117
+        },
+        "page": 3
+      }
+    },
+    {
+      "markdown": "<a id='5b1916a1-0028-466f-9c89-d02cd53914a3'></a>\n\nWind-assisted propulsion technologies (WPTs) have re-emerged as a potential solution for decarbonizing shipping. Wind is considered a free and renewable source of energy, giving it a comparative advantage over other emerging \"cleaner\" propulsion technologies in shipping.",
+      "type": "text",
+      "id": "5b1916a1-0028-466f-9c89-d02cd53914a3",
+      "grounding": {
+        "box": {
+          "left": 0.08244800567626953,
+          "top": 0.21994265913963318,
+          "right": 0.913442850112915,
+          "bottom": 0.32344916462898254
+        },
+        "page": 3
+      }
+    },
+    {
+      "markdown": "<a id='95b3ec38-3e61-4198-a9fd-b46616d66c48'></a>\n\n<::\n: flowchart::>\n1. **Ancient Technology**\nThe use of wind propulsion for ships is an ancient technological development.\n2. **Re-emergence**\nWPTs have re-emerged in line with the need to decarbonize shipping.\n3. **Modern Adaptation**\nA variety of modernized wind propulsion devices are being developed with the primary purpose of reducing fuel consumption and air polluting emissions.\n4. **Hybridization**\nWPTs are now primarily considered as a retrofit option in existing ships to reduce fuel consumption, rather than as the main form of propulsion.",
+      "type": "figure",
+      "id": "95b3ec38-3e61-4198-a9fd-b46616d66c48",
+      "grounding": {
+        "box": {
+          "left": 0.08591791987419128,
+          "top": 0.33761975169181824,
+          "right": 0.9086040258407593,
+          "bottom": 0.8512102365493774
+        },
+        "page": 3
+      }
+    },
+    {
+      "markdown": "<a id='daa593ab-e716-4198-8e02-e6dcbec7831c'></a>\n\nHybridization is considered key for the further adoption of WPTs in shipping fleets, with wind propulsion assisting the main diesel or bio-diesel engines to ensure schedules are maintained.",
+      "type": "text",
+      "id": "daa593ab-e716-4198-8e02-e6dcbec7831c",
+      "grounding": {
+        "box": {
+          "left": 0.08329880237579346,
+          "top": 0.8775153160095215,
+          "right": 0.9004842638969421,
+          "bottom": 0.949264407157898
+        },
+        "page": 3
+      }
+    },
+    {
+      "markdown": "<a id='6b1d8c4a-0744-40eb-99e9-cc4f5b2f2e16'></a>\n\nTypes of Wind-Assisted Propulsion\nTechnologies",
+      "type": "text",
+      "id": "6b1d8c4a-0744-40eb-99e9-cc4f5b2f2e16",
+      "grounding": {
+        "box": {
+          "left": 0.08142659068107605,
+          "top": 0.0831139013171196,
+          "right": 0.7311981916427612,
+          "bottom": 0.2668265402317047
+        },
+        "page": 4
+      }
+    },
+    {
+      "markdown": "<a id='bf1e1dcb-ac7a-4330-b4dc-bc5894f43d0f'></a>\n\nCommercially available WPTs can be grouped into three main categories:",
+      "type": "text",
+      "id": "bf1e1dcb-ac7a-4330-b4dc-bc5894f43d0f",
+      "grounding": {
+        "box": {
+          "left": 0.08428889513015747,
+          "top": 0.3097474277019501,
+          "right": 0.6146498322486877,
+          "bottom": 0.3587789833545685
+        },
+        "page": 4
+      }
+    },
+    {
+      "markdown": "<a id='668545c0-9a63-425f-a6b7-9c4b0f382657'></a>\n\n# Towing Kites\nAllows the ship to benefit from\nwind lift at high altitudes.\nExamples include prototypes\ncreated by suppliers such as\nSkySails in the early 2010s.",
+      "type": "text",
+      "id": "668545c0-9a63-425f-a6b7-9c4b0f382657",
+      "grounding": {
+        "box": {
+          "left": 0.08448195457458496,
+          "top": 0.37793368101119995,
+          "right": 0.3596513271331787,
+          "bottom": 0.8495753407478333
+        },
+        "page": 4
+      }
+    },
+    {
+      "markdown": "<a id='ba4979b3-5942-4913-bd62-fa14147f3adb'></a>\n\n# Sails\n\nIncludes both rigid and soft sails, which are variations of traditional sails but with modern features. Examples include JAMDA and Walker wingsail-type rigid sails, suction wings, and soft sails like PintaRig and DynaRig.",
+      "type": "text",
+      "id": "ba4979b3-5942-4913-bd62-fa14147f3adb",
+      "grounding": {
+        "box": {
+          "left": 0.364693284034729,
+          "top": 0.38037723302841187,
+          "right": 0.6365528106689453,
+          "bottom": 0.8486725687980652
+        },
+        "page": 4
+      }
+    },
+    {
+      "markdown": "<a id='012fec66-7030-4f5b-9712-44fe5283b687'></a>\n\n## Flettner Rotors\nThe most commercially diffuse\nWPT. Works under the Magnus\neffect, generating lifting and\ndrag forces in the spinning\nelectric motor-aided cylinder\naboard the vessel.",
+      "type": "text",
+      "id": "012fec66-7030-4f5b-9712-44fe5283b687",
+      "grounding": {
+        "box": {
+          "left": 0.6434578895568848,
+          "top": 0.37953805923461914,
+          "right": 0.9148702621459961,
+          "bottom": 0.8481185436248779
+        },
+        "page": 4
+      }
+    },
+    {
+      "markdown": "<a id='3f0b9b53-0a38-4a51-9e32-577b1670cc9c'></a>\n\nOther reported but less diffused technologies in commercial shipping include wind turbines and hull sails.",
+      "type": "text",
+      "id": "3f0b9b53-0a38-4a51-9e32-577b1670cc9c",
+      "grounding": {
+        "box": {
+          "left": 0.08417955040931702,
+          "top": 0.8693745136260986,
+          "right": 0.8427257537841797,
+          "bottom": 0.9179514646530151
+        },
+        "page": 4
+      }
+    },
+    {
+      "markdown": "<a id='f3048ead-3aa9-4dc0-b5e5-87a1930f962c'></a>\n\nTowing Kites",
+      "type": "text",
+      "id": "f3048ead-3aa9-4dc0-b5e5-87a1930f962c",
+      "grounding": {
+        "box": {
+          "left": 0.08345137536525726,
+          "top": 0.10992951691150665,
+          "right": 0.32755863666534424,
+          "bottom": 0.19919513165950775
+        },
+        "page": 5
+      }
+    },
+    {
+      "markdown": "<a id='edf47df9-2b4b-41a0-a5a4-4558ec4f2df6'></a>\n\nTowing kites are a type of wind-assisted propulsion technology that allows ships to benefit from wind lift at high altitudes. The name was used for a number of prototypes created by suppliers such as SkySails in the early 2010s.",
+      "type": "text",
+      "id": "edf47df9-2b4b-41a0-a5a4-4558ec4f2df6",
+      "grounding": {
+        "box": {
+          "left": 0.0827552080154419,
+          "top": 0.24252700805664062,
+          "right": 0.909500002861023,
+          "bottom": 0.33322495222091675
+        },
+        "page": 5
+      }
+    },
+    {
+      "markdown": "<a id='a8815cb3-df87-4f7e-8098-be2600e21b93'></a>\n\nA recent study by Zhang et al. (2021) compared the economic and technical feasibility of installing towing kites on a ship's bow (parafoils) with the use of Flettner rotors. The study considered the following parameters:\n\n* Route: Gibraltar to Panama round trip\n* Ship type: Supramax bulk carrier\n* Engine type: MAN 6S50ME-B9\n* Cruise speed: 14.4 knots\n* Load: 82.9%\n* Daily fuel consumption: 25 tonnes",
+      "type": "text",
+      "id": "a8815cb3-df87-4f7e-8098-be2600e21b93",
+      "grounding": {
+        "box": {
+          "left": 0.08121171593666077,
+          "top": 0.3569583296775818,
+          "right": 0.9161391258239746,
+          "bottom": 0.7834543585777283
+        },
+        "page": 5
+      }
+    },
+    {
+      "markdown": "<a id='b6d2128d-855b-4238-a50b-2d4af027f738'></a>\n\nThe simulation reported a fuel saving of around 1% for towing kites. The study also highlighted the potential of combining weather routing tools with WPTs as a way to increase fuel savings.",
+      "type": "text",
+      "id": "b6d2128d-855b-4238-a50b-2d4af027f738",
+      "grounding": {
+        "box": {
+          "left": 0.08324259519577026,
+          "top": 0.8062506914138794,
+          "right": 0.8799288868904114,
+          "bottom": 0.8999719619750977
+        },
+        "page": 5
+      }
+    },
+    {
+      "markdown": "<a id='c0aebeaf-38fa-437b-814f-27390e60727d'></a>\n\nSails: Rigid and Soft",
+      "type": "text",
+      "id": "c0aebeaf-38fa-437b-814f-27390e60727d",
+      "grounding": {
+        "box": {
+          "left": 0.0830843448638916,
+          "top": 0.06378678977489471,
+          "right": 0.4589200019836426,
+          "bottom": 0.14897897839546204
+        },
+        "page": 6
+      }
+    },
+    {
+      "markdown": "<a id='bbb5531e-b8f3-4695-8747-86e55e5a687e'></a>\n\nSails comprise both rigid and soft variations, which are modern adaptations of traditional sails. Several rigid sail models have been considered in the literature, including:",
+      "type": "text",
+      "id": "bbb5531e-b8f3-4695-8747-86e55e5a687e",
+      "grounding": {
+        "box": {
+          "left": 0.08203786611557007,
+          "top": 0.18534207344055176,
+          "right": 0.8866493105888367,
+          "bottom": 0.26897674798965454
+        },
+        "page": 6
+      }
+    },
+    {
+      "markdown": "<a id='3546cbb8-38ae-41e2-9ea5-e6fe47c35817'></a>\n\n- Japan Marine Machinery Development Association (JAMDA) sails\n- Walker wingsail-type rigid sails\n- Suction wings (e.g., Econowind's Ventifoil model)",
+      "type": "text",
+      "id": "3546cbb8-38ae-41e2-9ea5-e6fe47c35817",
+      "grounding": {
+        "box": {
+          "left": 0.08345326781272888,
+          "top": 0.28740352392196655,
+          "right": 0.5870345830917358,
+          "bottom": 0.42961615324020386
+        },
+        "page": 6
+      }
+    },
+    {
+      "markdown": "<a id='0f46133b-b0f4-439e-af33-d484819f4b93'></a>\n\nSoft sails include models such as:\n* PintaRig\n* DynaRig\n* Delta-wing sails\n* FastRigs",
+      "type": "text",
+      "id": "0f46133b-b0f4-439e-af33-d484819f4b93",
+      "grounding": {
+        "box": {
+          "left": 0.08220650255680084,
+          "top": 0.4481008052825928,
+          "right": 0.33759570121765137,
+          "bottom": 0.6985800266265869
+        },
+        "page": 6
+      }
+    },
+    {
+      "markdown": "<a id='379c5a5c-105d-48fd-b750-bc786c42e157'></a>\n\nRigid sails in the 1980s yielded a fuel consumption reduction of between 10% and 30% in wind favorable conditions. DynaRig is gaining popularity due to its maneuverability and safety characteristics.",
+      "type": "text",
+      "id": "379c5a5c-105d-48fd-b750-bc786c42e157",
+      "grounding": {
+        "box": {
+          "left": 0.08402842283248901,
+          "top": 0.71500563621521,
+          "right": 0.8386585116386414,
+          "bottom": 0.7965431213378906
+        },
+        "page": 6
+      }
+    },
+    {
+      "markdown": "<a id='0f592a08-6377-4289-ba63-6997b28506ec'></a>\n\nHybrid sail concepts, which incorporate design components of both soft and rigid sails, have also been developed.\nExamples include the Japanese National Maritime Research Institute's hybrid sail concept and the DynaRig.\nHowever, these concepts are not currently considered commercially viable due to their high costs.",
+      "type": "text",
+      "id": "0f592a08-6377-4289-ba63-6997b28506ec",
+      "grounding": {
+        "box": {
+          "left": 0.08347147703170776,
+          "top": 0.8162163496017456,
+          "right": 0.9082355499267578,
+          "bottom": 0.9374125003814697
+        },
+        "page": 6
+      }
+    },
+    {
+      "markdown": "<a id='0543c811-943c-4fc5-b2ba-b8a1dd91cd73'></a>\n\nFlettner Rotors",
+      "type": "text",
+      "id": "0543c811-943c-4fc5-b2ba-b8a1dd91cd73",
+      "grounding": {
+        "box": {
+          "left": 0.0829826146364212,
+          "top": 0.10008250921964645,
+          "right": 0.3704962730407715,
+          "bottom": 0.18513548374176025
+        },
+        "page": 7
+      }
+    },
+    {
+      "markdown": "<a id='56b17e74-6c20-4727-9339-7c23e1614744'></a>\n\nFlettner rotors are the most commercially diffuse wind-assisted propulsion technology. This technology originated 100 years ago as a result of tests with the ships Buckau and Barbara. Flettner rotors work under the Magnus effect, which generates lifting and drag forces in the spinning electric motor-aided cylinder aboard the vessel.",
+      "type": "text",
+      "id": "56b17e74-6c20-4727-9339-7c23e1614744",
+      "grounding": {
+        "box": {
+          "left": 0.08237072825431824,
+          "top": 0.24039003252983093,
+          "right": 0.9102030992507935,
+          "bottom": 0.3756098449230194
+        },
+        "page": 7
+      }
+    },
+    {
+      "markdown": "<a id='a9c14483-ecff-4466-872c-57136422780d'></a>\n\nKey points about Flettner rotors:\n\n* Extensively simulated and well-known by policymakers\n* Research has been conducted on several parameters influencing aerodynamic performance, including velocity ratio, endplate size, and aspect ratio\n* Real-life experiments and desk studies have reported on the inclusion of several Flettner rotors in the installation layout to boost fuel saving potential\n* Some dry bulkers require tiltable Flettner rotors to avoid conflict with hatches, cranes, or other port-related infrastructure\n* Studies have concluded that their use could lead to large potential savings in installation and maintenance costs of up to 40% considering different routes and sailing conditions",
+      "type": "text",
+      "id": "a9c14483-ecff-4466-872c-57136422780d",
+      "grounding": {
+        "box": {
+          "left": 0.08236813545227051,
+          "top": 0.399486780166626,
+          "right": 0.9138506054878235,
+          "bottom": 0.9022455215454102
+        },
+        "page": 7
+      }
+    },
+    {
+      "markdown": "<a id='c46acb32-75b1-4e80-9c0e-c69d08c537be'></a>\n\nFactors Affecting WPT Performance",
+      "type": "text",
+      "id": "c46acb32-75b1-4e80-9c0e-c69d08c537be",
+      "grounding": {
+        "box": {
+          "left": 0.08324584364891052,
+          "top": 0.10420592129230499,
+          "right": 0.7447091341018677,
+          "bottom": 0.196226105093956
+        },
+        "page": 8
+      }
+    },
+    {
+      "markdown": "<a id='1b3790cd-b26c-4afc-970f-746f9be4bd1b'></a>\n\nThe fuel savings and performance of wind propulsion devices on ships depend on several factors:",
+      "type": "text",
+      "id": "1b3790cd-b26c-4afc-970f-746f9be4bd1b",
+      "grounding": {
+        "box": {
+          "left": 0.08358365297317505,
+          "top": 0.23820078372955322,
+          "right": 0.7933833003044128,
+          "bottom": 0.293398916721344
+        },
+        "page": 8
+      }
+    },
+    {
+      "markdown": "<a id='8bec0a31-7e41-44db-957c-552b26e38dab'></a>\n\n# Ship Design\n\nThe rig and hull design of the ship can significantly impact the effectiveness of WPTs. Some designs may be more conducive to certain types of wind propulsion technologies.",
+      "type": "text",
+      "id": "8bec0a31-7e41-44db-957c-552b26e38dab",
+      "grounding": {
+        "box": {
+          "left": 0.07940220832824707,
+          "top": 0.3308641314506531,
+          "right": 0.3465573787689209,
+          "bottom": 0.6820910573005676
+        },
+        "page": 8
+      }
+    },
+    {
+      "markdown": "<a id='377a9cb5-37f9-46aa-95e1-af6cb476ea41'></a>\n\n# Operation Speed\n\nThe speed at which the ship operates affects the potential fuel savings from WPTs. Generally, lower speeds allow for greater relative contributions from wind propulsion.",
+      "type": "text",
+      "id": "377a9cb5-37f9-46aa-95e1-af6cb476ea41",
+      "grounding": {
+        "box": {
+          "left": 0.36705446243286133,
+          "top": 0.33239585161209106,
+          "right": 0.6221240758895874,
+          "bottom": 0.6848728060722351
+        },
+        "page": 8
+      }
+    },
+    {
+      "markdown": "<a id='036f3255-8e61-4a2a-b35d-22d0f9a66060'></a>\n\n# Wind Conditions\n\nWind speeds and directions play a crucial role in the performance of WPTs. Favorable wind conditions can significantly increase fuel savings, while unfavorable conditions may limit their effectiveness.",
+      "type": "text",
+      "id": "036f3255-8e61-4a2a-b35d-22d0f9a66060",
+      "grounding": {
+        "box": {
+          "left": 0.6496675610542297,
+          "top": 0.3324308395385742,
+          "right": 0.914384663105011,
+          "bottom": 0.720252513885498
+        },
+        "page": 8
+      }
+    },
+    {
+      "markdown": "<a id='9dd17a55-7139-417e-823a-00cd3af4056f'></a>\n\nThe IMO Marine Environment Protection Committee (MEPC) concluded that WPTs can be accommodated as an auxiliary source of power in the calculation of EEDI and EEXI. This recognition highlights the potential role of WPTs in the IMO strategy to reduce greenhouse gas emissions of international shipping.",
+      "type": "text",
+      "id": "9dd17a55-7139-417e-823a-00cd3af4056f",
+      "grounding": {
+        "box": {
+          "left": 0.08090135455131531,
+          "top": 0.7576481103897095,
+          "right": 0.9086766242980957,
+          "bottom": 0.9038400650024414
+        },
+        "page": 8
+      }
+    },
+    {
+      "markdown": "<a id='76bf29ec-f165-4991-9fb2-5a0493dafe92'></a>\n\nEconomic Considerations for WPT Adoption",
+      "type": "text",
+      "id": "76bf29ec-f165-4991-9fb2-5a0493dafe92",
+      "grounding": {
+        "box": {
+          "left": 0.0840844213962555,
+          "top": 0.05780048668384552,
+          "right": 0.8989546298980713,
+          "bottom": 0.13035954535007477
+        },
+        "page": 9
+      }
+    },
+    {
+      "markdown": "<a id='425c4b11-5ca9-489c-9c9b-92b95ee2a704'></a>\n\nThe financial appeal of reducing operational costs is a key driver for shipping companies to embrace wind propulsion. Several studies have calculated the potential economic benefits of WPTs. Common conclusions include:\n\n* Fuel prices need to be high for WPT solutions to be competitive\n* The type of vessel is important when it comes to financial benefits, with particular reference to ocean-going low-speed bulk carriers and oil tankers\n* The capacity of vessels to accommodate additional wind propulsion structures on deck is a technical consideration",
+      "type": "text",
+      "id": "425c4b11-5ca9-489c-9c9b-92b95ee2a704",
+      "grounding": {
+        "box": {
+          "left": 0.08251291513442993,
+          "top": 0.16874949634075165,
+          "right": 0.8874011039733887,
+          "bottom": 0.49039894342422485
+        },
+        "page": 9
+      }
+    },
+    {
+      "markdown": "<a id='16472cf0-9555-4529-ab06-1caae4451661'></a>\n\nHowever, several barriers hinder the uptake of WPTs:",
+      "type": "text",
+      "id": "16472cf0-9555-4529-ab06-1caae4451661",
+      "grounding": {
+        "box": {
+          "left": 0.08398789167404175,
+          "top": 0.5073384046554565,
+          "right": 0.4766004681587219,
+          "bottom": 0.5504628419876099
+        },
+        "page": 9
+      }
+    },
+    {
+      "markdown": "<a id='e0211ba9-ee95-4268-a39b-f8c812c18ba0'></a>\n\n1 Financial Constraints\n\nCost and access to capital, as well as economic constraints, can limit investment in WPTs.",
+      "type": "text",
+      "id": "e0211ba9-ee95-4268-a39b-f8c812c18ba0",
+      "grounding": {
+        "box": {
+          "left": 0.08362013101577759,
+          "top": 0.5831836462020874,
+          "right": 0.48416149616241455,
+          "bottom": 0.7144380807876587
+        },
+        "page": 9
+      }
+    },
+    {
+      "markdown": "<a id='e7479f14-e8c9-44f8-be15-c60f81b6a413'></a>\n\n3 Technical Uncertainties\nLack of trusted information, safety and reliability concerns, and technical uncertainties can deter adoption.",
+      "type": "text",
+      "id": "e7479f14-e8c9-44f8-be15-c60f81b6a413",
+      "grounding": {
+        "box": {
+          "left": 0.0830531120300293,
+          "top": 0.7756310701370239,
+          "right": 0.48777806758880615,
+          "bottom": 0.9450538158416748
+        },
+        "page": 9
+      }
+    },
+    {
+      "markdown": "<a id='027867e6-7afb-469f-948c-7b352919aaad'></a>\n\n## 2 Market Factors\n\nMarket constraints and split incentives between charterers and shipowners can complicate the decision to adopt WPTs.",
+      "type": "text",
+      "id": "027867e6-7afb-469f-948c-7b352919aaad",
+      "grounding": {
+        "box": {
+          "left": 0.5022704005241394,
+          "top": 0.579092264175415,
+          "right": 0.9031803011894226,
+          "bottom": 0.7502126693725586
+        },
+        "page": 9
+      }
+    },
+    {
+      "markdown": "<a id='918d6dc2-dcc9-4428-8dbd-04c30d9d7f05'></a>\n\n4 Institutional Barriers\n\nRegulations in place and poor knowledge infrastructure can slow the adoption of WPTs.",
+      "type": "text",
+      "id": "918d6dc2-dcc9-4428-8dbd-04c30d9d7f05",
+      "grounding": {
+        "box": {
+          "left": 0.5019027590751648,
+          "top": 0.7768653631210327,
+          "right": 0.8889668583869934,
+          "bottom": 0.9122109413146973
+        },
+        "page": 9
+      }
+    },
+    {
+      "markdown": "<a id='fa32bd57-170c-4a67-b9c5-3758f21b4c8c'></a>\n\nAgent-Based Modeling for WPT Adoption",
+      "type": "text",
+      "id": "fa32bd57-170c-4a67-b9c5-3758f21b4c8c",
+      "grounding": {
+        "box": {
+          "left": 0.08126014471054077,
+          "top": 0.13421425223350525,
+          "right": 0.8415348529815674,
+          "bottom": 0.23050743341445923
+        },
+        "page": 10
+      }
+    },
+    {
+      "markdown": "<a id='1bc0ca22-b3a4-4241-8248-e73047bb53ae'></a>\n\nAgent-based modeling (ABM) is an increasingly popular research method for analyzing the adoption of green products and eco-innovations. ABM originates from complex systems theories, based on the principles that rules governing the behavior of agents at the micro level can concatenate to simulate what happens at a macro scale.",
+      "type": "text",
+      "id": "1bc0ca22-b3a4-4241-8248-e73047bb53ae",
+      "grounding": {
+        "box": {
+          "left": 0.08204415440559387,
+          "top": 0.27177709341049194,
+          "right": 0.8974575996398926,
+          "bottom": 0.4082013964653015
+        },
+        "page": 10
+      }
+    },
+    {
+      "markdown": "<a id='de5052bf-1b98-4591-9243-d210509b207e'></a>\n\nKey features of ABM for modeling WPT adoption:\n\n* Allows consideration of heterogeneity among technology suppliers and adopters\n* Enables observation of aggregated micro-level interactions at the macro-level, where policy effects are primarily observed\n* Facilitates the simulation of network effects and word-of-mouth processes\n* Provides flexibility to understand the effects of given combinations of market and political conditions",
+      "type": "text",
+      "id": "de5052bf-1b98-4591-9243-d210509b207e",
+      "grounding": {
+        "box": {
+          "left": 0.08204853534698486,
+          "top": 0.4321334660053253,
+          "right": 0.8527678847312927,
+          "bottom": 0.7522239685058594
+        },
+        "page": 10
+      }
+    },
+    {
+      "markdown": "<a id='3149a6ad-f520-4018-9958-15e202f26a33'></a>\n\nIn the context of WPT adoption, ABM can be used to simulate how different policy interventions and market scenarios impact the decisions of shipowners to adopt wind-assisted propulsion technologies.",
+      "type": "text",
+      "id": "3149a6ad-f520-4018-9958-15e202f26a33",
+      "grounding": {
+        "box": {
+          "left": 0.08337536454200745,
+          "top": 0.7764540314674377,
+          "right": 0.8576537370681763,
+          "bottom": 0.8669784665107727
+        },
+        "page": 10
+      }
+    },
+    {
+      "markdown": "<a id='3e81b93f-5963-4485-a822-62e02140c897'></a>\n\n<::transcription of the content\n: abstract background image::>",
+      "type": "figure",
+      "id": "3e81b93f-5963-4485-a822-62e02140c897",
+      "grounding": {
+        "box": {
+          "left": 0.00045471638441085815,
+          "top": -0.00018781423568725586,
+          "right": 0.24896582961082458,
+          "bottom": 0.9983912110328674
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='ebd73f70-264d-4ebf-bc9f-30e8f70652ba'></a>\n\nModel Structure and Features",
+      "type": "text",
+      "id": "ebd73f70-264d-4ebf-bc9f-30e8f70652ba",
+      "grounding": {
+        "box": {
+          "left": 0.29553040862083435,
+          "top": 0.056652337312698364,
+          "right": 0.8481773138046265,
+          "bottom": 0.12814365327358246
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='3dae6ebb-fe92-4a11-8be3-443980add60e'></a>\n\nThe agent-based model developed for this study represents a population of vessels with heterogeneous features and a set of WPT options. The model simulates WPT adoption over time, with each time step representing one month.",
+      "type": "text",
+      "id": "3dae6ebb-fe92-4a11-8be3-443980add60e",
+      "grounding": {
+        "box": {
+          "left": 0.2957819402217865,
+          "top": 0.16193321347236633,
+          "right": 0.9359363317489624,
+          "bottom": 0.2716524004936218
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='d574bbef-659a-4885-b045-de593e31ca18'></a>\n\nKey components of the model:",
+      "type": "text",
+      "id": "d574bbef-659a-4885-b045-de593e31ca18",
+      "grounding": {
+        "box": {
+          "left": 0.296922892332077,
+          "top": 0.29149436950683594,
+          "right": 0.526652991771698,
+          "bottom": 0.3316580653190613
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='80acb0ef-7545-430d-b08c-dd9828a8eb71'></a>\n\n**Vessel Population**\n\nIncludes heterogeneous vessels\nbelonging to different shipowners, with\nfeatures such as age, fuel\nconsumption, and awareness of WPT.",
+      "type": "text",
+      "id": "80acb0ef-7545-430d-b08c-dd9828a8eb71",
+      "grounding": {
+        "box": {
+          "left": 0.29894447326660156,
+          "top": 0.34728550910949707,
+          "right": 0.622026801109314,
+          "bottom": 0.5940186381340027
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='2606e714-2d45-4f12-9f72-0570deef645b'></a>\n\n# WPT Options\nDefines a set of wind-based clean\ntechnological options, each with\nmaintenance costs, installation costs,\nand fuel consumption reduction ratios.",
+      "type": "text",
+      "id": "2606e714-2d45-4f12-9f72-0570deef645b",
+      "grounding": {
+        "box": {
+          "left": 0.6291409730911255,
+          "top": 0.3467090129852295,
+          "right": 0.9518131017684937,
+          "bottom": 0.594281017780304
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='f59cdf21-3d1c-421d-8374-5c9f2be320bf'></a>\n\n## Social Network\n\nConnects vessels through an artificial social network to simulate word-of-mouth processes.",
+      "type": "text",
+      "id": "f59cdf21-3d1c-421d-8374-5c9f2be320bf",
+      "grounding": {
+        "box": {
+          "left": 0.29950714111328125,
+          "top": 0.6047061681747437,
+          "right": 0.6215950846672058,
+          "bottom": 0.8158104419708252
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='8990aab4-8075-46c8-a5c7-0123b4eeba1b'></a>\n\n**Awareness Mechanism**\nUses the Bass diffusion model to\nsimulate the spread of awareness\nabout WPT innovations.",
+      "type": "text",
+      "id": "8990aab4-8075-46c8-a5c7-0123b4eeba1b",
+      "grounding": {
+        "box": {
+          "left": 0.6285473108291626,
+          "top": 0.6035242676734924,
+          "right": 0.9517619609832764,
+          "bottom": 0.815844714641571
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='f4bd27a6-c183-4d8d-b18b-df3015cfdf1a'></a>\n\nThe model has two main stages: eco-innovation awareness and utility-based vessel adoption of a WPT option. This structure allows for a more nuanced representation of the adoption process.",
+      "type": "text",
+      "id": "f4bd27a6-c183-4d8d-b18b-df3015cfdf1a",
+      "grounding": {
+        "box": {
+          "left": 0.29587522149086,
+          "top": 0.8320481777191162,
+          "right": 0.9435924291610718,
+          "bottom": 0.9434441328048706
+        },
+        "page": 11
+      }
+    },
+    {
+      "markdown": "<a id='1f3e5cc8-bfa5-44b2-b344-82160a026f78'></a>\n\nDecision-Making Process for WPT Adoption",
+      "type": "text",
+      "id": "1f3e5cc8-bfa5-44b2-b344-82160a026f78",
+      "grounding": {
+        "box": {
+          "left": 0.08380782604217529,
+          "top": 0.044237054884433746,
+          "right": 0.890511155128479,
+          "bottom": 0.10661790519952774
+        },
+        "page": 12
+      }
+    },
+    {
+      "markdown": "<a id='f17cfc81-bf06-468e-aab5-aac2510b4846'></a>\n\nThe model incorporates a decision-making process for vessels to choose among available WPT options. This process is based on the following steps:",
+      "type": "text",
+      "id": "f17cfc81-bf06-468e-aab5-aac2510b4846",
+      "grounding": {
+        "box": {
+          "left": 0.08290451765060425,
+          "top": 0.1326756775379181,
+          "right": 0.8719181418418884,
+          "bottom": 0.1909160315990448
+        },
+        "page": 12
+      }
+    },
+    {
+      "markdown": "<a id='baf6b5f2-5449-4505-8245-beb8f14ce619'></a>\n\n<table id=\"12-1\">\n<tr><td id=\"12-2\">1</td><td id=\"12-3\">Operational Status Check The vessel must be operating within its lifetime (remaining years of operation > 0).</td></tr>\n<tr><td id=\"12-4\">2</td><td id=\"12-5\">Awareness Check The vessel must be aware of the WPT options (awareness = 1).</td></tr>\n<tr><td id=\"12-6\">3</td><td id=\"12-7\">Utility Calculation The model calculates the expected net present value (NPV) for each WPT option for the vessel.</td></tr>\n<tr><td id=\"12-8\">4</td><td id=\"12-9\">Option Evaluation If any options have a positive utility value, the vessel calculates the probability of acquiring each option.</td></tr>\n<tr><td id=\"12-a\">5</td><td id=\"12-b\">Selection The vessel selects a WPT option based on the calculated probabilities, with higher utility values having a higher chance of being chosen.</td></tr>\n</table>",
+      "type": "table",
+      "id": "baf6b5f2-5449-4505-8245-beb8f14ce619",
+      "grounding": {
+        "box": {
+          "left": 0.0799015462398529,
+          "top": 0.1982404589653015,
+          "right": 0.8829512596130371,
+          "bottom": 0.8871613144874573
+        },
+        "page": 12
+      }
+    },
+    {
+      "markdown": "<a id='7243a371-30fe-4c98-8807-032af7a6fb99'></a>\n\nThis decision-making process allows for a realistic representation of how shipowners might evaluate and choose among different WPT options based on their specific vessel characteristics and economic considerations.",
+      "type": "text",
+      "id": "7243a371-30fe-4c98-8807-032af7a6fb99",
+      "grounding": {
+        "box": {
+          "left": 0.0827154815196991,
+          "top": 0.8966112732887268,
+          "right": 0.8971899747848511,
+          "bottom": 0.9579717516899109
+        },
+        "page": 12
+      }
+    },
+    {
+      "markdown": "<a id='d5c55ef4-bcab-40dc-a632-70c5da95d08d'></a>\n\nData Sources and Experimental Setup",
+      "type": "text",
+      "id": "d5c55ef4-bcab-40dc-a632-70c5da95d08d",
+      "grounding": {
+        "box": {
+          "left": 0.08336958289146423,
+          "top": 0.06543382257223129,
+          "right": 0.7789621353149414,
+          "bottom": 0.15127220749855042
+        },
+        "page": 13
+      }
+    },
+    {
+      "markdown": "<a id='7b04a5e2-9863-4d26-97ae-d5b92e3c5aeb'></a>\n\nThe study incorporates real-world data from various sources to ensure the model's relevance and accuracy:\n\n* WPT option data: Collected from the Wind Assisted Ship Propulsion (WASP) project, funded by the EU, for three alternatives: Flettner rotors, Ventifoil, and wingsail technologies.\n* Vessel data: Extracted from the Clarksons database, focusing on all types of vessels with dead-weight tonnage from 2,000 to 6,500.\n* Fuel price data: Set to 500 €/mt at the beginning of simulations, based on Clarkson's study and internal data from WASP project pilot ships.",
+      "type": "text",
+      "id": "7b04a5e2-9863-4d26-97ae-d5b92e3c5aeb",
+      "grounding": {
+        "box": {
+          "left": 0.08211547136306763,
+          "top": 0.18967287242412567,
+          "right": 0.9139580130577087,
+          "bottom": 0.5110320448875427
+        },
+        "page": 13
+      }
+    },
+    {
+      "markdown": "<a id='ff712eae-a7f8-4949-a526-0ab667447f7d'></a>\n\nExperimental setup details:\n\n* Java-based simulation software platform\n* 30 independent Monte Carlo realizations with different random seeds\n* 360 synchronous time steps (30 years of simulation)\n* Maximum vessel lifetime set to 30 years\n* Two fuel pricing scenarios: monthly-based pessimistic and yearly-based less pessimistic",
+      "type": "text",
+      "id": "ff712eae-a7f8-4949-a526-0ab667447f7d",
+      "grounding": {
+        "box": {
+          "left": 0.08424636721611023,
+          "top": 0.5315497517585754,
+          "right": 0.7532109022140503,
+          "bottom": 0.8346701264381409
+        },
+        "page": 13
+      }
+    },
+    {
+      "markdown": "<a id='8f0e6d31-32af-4c54-bcad-fa697c64c0e3'></a>\n\nThis combination of real-world data and carefully designed experimental parameters ensures that the model provides meaningful insights into WPT adoption dynamics.",
+      "type": "text",
+      "id": "8f0e6d31-32af-4c54-bcad-fa697c64c0e3",
+      "grounding": {
+        "box": {
+          "left": 0.08415570855140686,
+          "top": 0.8534591794013977,
+          "right": 0.8642938137054443,
+          "bottom": 0.936860978603363
+        },
+        "page": 13
+      }
+    },
+    {
+      "markdown": "<a id='f20f142c-0599-4995-a70c-8bf0d899ef52'></a>\n\nModel Validation and Calibration",
+      "type": "text",
+      "id": "f20f142c-0599-4995-a70c-8bf0d899ef52",
+      "grounding": {
+        "box": {
+          "left": 0.08322024345397949,
+          "top": 0.14123371243476868,
+          "right": 0.705303430557251,
+          "bottom": 0.23052987456321716
+        },
+        "page": 14
+      }
+    },
+    {
+      "markdown": "<a id='f0f138c2-39fd-4f1b-9170-3b58db8f7855'></a>\n\nThe model's diffusion dynamics were validated and calibrated using the following approach:\n\n1. Bass model parameters (p̂ and q̂) were calibrated based on previous literature on energy efficient technologies and eco-innovations.\n2. Different scale-free social network densities were compared to understand their impact on technology awareness diffusion.\n3. Initial awareness rates of the population were varied to assess their effect on adoption patterns.\n4. The calibrated values for p̂ and q̂ were set to 0.00118 and 0.039, respectively.\n5. A network with m = 4 (SF4) was chosen for the study to avoid extreme diffusion results with a low initial awareness of 1%.",
+      "type": "text",
+      "id": "f0f138c2-39fd-4f1b-9170-3b58db8f7855",
+      "grounding": {
+        "box": {
+          "left": 0.07983860373497009,
+          "top": 0.27872374653816223,
+          "right": 0.9075099229812622,
+          "bottom": 0.744671106338501
+        },
+        "page": 14
+      }
+    },
+    {
+      "markdown": "<a id='ccf48934-20f4-48e5-8be8-d43402c32aae'></a>\n\nThe validation process ensured that the diffusion process of awareness had a shape similar to that reported in comparable energy markets, providing confidence in the model's ability to simulate realistic adoption patterns.",
+      "type": "text",
+      "id": "ccf48934-20f4-48e5-8be8-d43402c32aae",
+      "grounding": {
+        "box": {
+          "left": 0.08105519413948059,
+          "top": 0.7615476846694946,
+          "right": 0.8854910135269165,
+          "bottom": 0.8626517057418823
+        },
+        "page": 14
+      }
+    },
+    {
+      "markdown": "<a id='31f62638-afc4-4a6e-802a-47ca83a97d29'></a>\n\nKey Findings: Baseline Scenario",
+      "type": "text",
+      "id": "31f62638-afc4-4a6e-802a-47ca83a97d29",
+      "grounding": {
+        "box": {
+          "left": 0.08385246992111206,
+          "top": 0.10557917505502701,
+          "right": 0.670244038105011,
+          "bottom": 0.1992332935333252
+        },
+        "page": 15
+      }
+    },
+    {
+      "markdown": "<a id='e3eb43ea-7e83-4485-9710-4d3c6ed5d16a'></a>\n\nThe study evaluated WPT adoption under a baseline scenario with no interventions. Key findings include:",
+      "type": "text",
+      "id": "e3eb43ea-7e83-4485-9710-4d3c6ed5d16a",
+      "grounding": {
+        "box": {
+          "left": 0.0837283730506897,
+          "top": 0.24017155170440674,
+          "right": 0.8416053056716919,
+          "bottom": 0.29230576753616333
+        },
+        "page": 15
+      }
+    },
+    {
+      "markdown": "<a id='18e55cc2-fae6-4a5b-866d-0ceef234a6d5'></a>\n\n1 Low Adoption Levels\nWithout interventions, adoption of all three WPT\noptions was very limited over the 30-year\nsimulation period.",
+      "type": "text",
+      "id": "18e55cc2-fae6-4a5b-866d-0ceef234a6d5",
+      "grounding": {
+        "box": {
+          "left": 0.08279062807559967,
+          "top": 0.33176782727241516,
+          "right": 0.4844408631324768,
+          "bottom": 0.5441399812698364
+        },
+        "page": 15
+      }
+    },
+    {
+      "markdown": "<a id='e6529a12-403c-41c0-8e9a-cf067aeb324f'></a>\n\n## 2 Wingsail Preference\nThe Wingsail option was the most successful technology, but its maximum adoption rate was only 4.1% (250 vessels out of 6,009) after 30 years.",
+      "type": "text",
+      "id": "e6529a12-403c-41c0-8e9a-cf067aeb324f",
+      "grounding": {
+        "box": {
+          "left": 0.5013399124145508,
+          "top": 0.3333090543746948,
+          "right": 0.8988516330718994,
+          "bottom": 0.5849106311798096
+        },
+        "page": 15
+      }
+    },
+    {
+      "markdown": "<a id='bcbf2db3-2b27-4042-97c9-2976e41e4f6e'></a>\n\n3 Fuel Price Impact\nHigher adoption rates were observed in the monthly updated fuel price scenario, which resulted in higher prices over time.",
+      "type": "text",
+      "id": "bcbf2db3-2b27-4042-97c9-2976e41e4f6e",
+      "grounding": {
+        "box": {
+          "left": 0.08287107944488525,
+          "top": 0.614780843257904,
+          "right": 0.4567717909812927,
+          "bottom": 0.8300836682319641
+        },
+        "page": 15
+      }
+    },
+    {
+      "markdown": "<a id='ae64b7b7-25d3-4392-94d2-51a2f448c963'></a>\n\n4 Sailing Distance Effect\nLonger sailing distances (e.g., 60,000 nm) led to higher adoption rates, as fuel savings from WPT adoption become more significant.",
+      "type": "text",
+      "id": "ae64b7b7-25d3-4392-94d2-51a2f448c963",
+      "grounding": {
+        "box": {
+          "left": 0.5007063150405884,
+          "top": 0.6175198554992676,
+          "right": 0.906865119934082,
+          "bottom": 0.8294119834899902
+        },
+        "page": 15
+      }
+    },
+    {
+      "markdown": "<a id='050ccfb6-b2aa-427c-93b4-bd3f44ba5c91'></a>\n\nThese findings highlight the challenges of WPT adoption without supportive policies or market interventions.",
+      "type": "text",
+      "id": "050ccfb6-b2aa-427c-93b4-bd3f44ba5c91",
+      "grounding": {
+        "box": {
+          "left": 0.0846761167049408,
+          "top": 0.8480662107467651,
+          "right": 0.86612868309021,
+          "bottom": 0.8999512195587158
+        },
+        "page": 15
+      }
+    },
+    {
+      "markdown": "<a id='22577e9a-7672-409f-bf01-eb500a8966b9'></a>\n\nPolicy Interventions and Their Effects",
+      "type": "text",
+      "id": "22577e9a-7672-409f-bf01-eb500a8966b9",
+      "grounding": {
+        "box": {
+          "left": 0.082756906747818,
+          "top": 0.051538072526454926,
+          "right": 0.7819802761077881,
+          "bottom": 0.13010883331298828
+        },
+        "page": 16
+      }
+    },
+    {
+      "markdown": "<a id='497e034f-e33e-4446-ae5d-e387763c0b6b'></a>\n\nThe study explored the effects of various policy interventions on WPT adoption:",
+      "type": "text",
+      "id": "497e034f-e33e-4446-ae5d-e387763c0b6b",
+      "grounding": {
+        "box": {
+          "left": 0.08420270681381226,
+          "top": 0.163428395986557,
+          "right": 0.663571298122406,
+          "bottom": 0.20542722940444946
+        },
+        "page": 16
+      }
+    },
+    {
+      "markdown": "<a id='a852e26c-a1e5-4976-b4af-da9da5723f38'></a>\n\n# Installation Cost Subsidies\n\nProviding subsidies to reduce the initial capital or installation costs of WPT options. This intervention had a significant impact on adoption rates, particularly when subsidies were high.",
+      "type": "text",
+      "id": "a852e26c-a1e5-4976-b4af-da9da5723f38",
+      "grounding": {
+        "box": {
+          "left": 0.08142562210559845,
+          "top": 0.2387186586856842,
+          "right": 0.3474404811859131,
+          "bottom": 0.5022217035293579
+        },
+        "page": 16
+      }
+    },
+    {
+      "markdown": "<a id='b892104f-7f7e-4581-a033-938080e3190e'></a>\n\n# Fuel Consumption Tax\n\nApplying a tax on each metric ton of fuel used by vessels. This intervention had a less pronounced effect compared to installation cost subsidies.",
+      "type": "text",
+      "id": "b892104f-7f7e-4581-a033-938080e3190e",
+      "grounding": {
+        "box": {
+          "left": 0.368589848279953,
+          "top": 0.23949402570724487,
+          "right": 0.6212018728256226,
+          "bottom": 0.4705198407173157
+        },
+        "page": 16
+      }
+    },
+    {
+      "markdown": "<a id='af4b19fb-4dfe-428c-9598-28753f0a73b8'></a>\n\n**Increased Networking**\n\nRaising the initial awareness level of WPT technologies through networking activities. This intervention, combined with other policies, led to increased adoption rates and shifts in technology preferences.",
+      "type": "text",
+      "id": "af4b19fb-4dfe-428c-9598-28753f0a73b8",
+      "grounding": {
+        "box": {
+          "left": 0.6541392207145691,
+          "top": 0.23867250978946686,
+          "right": 0.9126899838447571,
+          "bottom": 0.5360888242721558
+        },
+        "page": 16
+      }
+    },
+    {
+      "markdown": "<a id='73bb31d7-1858-48a6-8393-0db1e057b5c1'></a>\n\nKey findings from policy intervention simulations:\n\n* Installation cost subsidies were more effective than fuel taxes in promoting WPT adoption.\n* High subsidies led to increased adoption of the Wingsail option, while mid-range subsidies favored the Ventifoil option.\n* Combining networking effects with installation subsidies resulted in adoption rates of up to 50% for certain WPT options.\n* Increased awareness through networking tended to favor the adoption of cheaper WPT options.",
+      "type": "text",
+      "id": "73bb31d7-1858-48a6-8393-0db1e057b5c1",
+      "grounding": {
+        "box": {
+          "left": 0.08155497908592224,
+          "top": 0.5693098306655884,
+          "right": 0.9146542549133301,
+          "bottom": 0.8578082323074341
+        },
+        "page": 16
+      }
+    },
+    {
+      "markdown": "<a id='234244b9-b1b6-4139-9f35-5cc08da3100f'></a>\n\nThese results provide valuable insights for policymakers and industry stakeholders on effective strategies to promote WPT adoption in the shipping industry.",
+      "type": "text",
+      "id": "234244b9-b1b6-4139-9f35-5cc08da3100f",
+      "grounding": {
+        "box": {
+          "left": 0.0824841856956482,
+          "top": 0.8727452158927917,
+          "right": 0.8667562007904053,
+          "bottom": 0.9471350312232971
+        },
+        "page": 16
+      }
+    },
+    {
+      "markdown": "<a id='68551efc-5e4c-4743-a803-2eb88377f9ad'></a>\n\nConclusions and Future Work",
+      "type": "text",
+      "id": "68551efc-5e4c-4743-a803-2eb88377f9ad",
+      "grounding": {
+        "box": {
+          "left": 0.08300918340682983,
+          "top": 0.05236099287867546,
+          "right": 0.6370145678520203,
+          "bottom": 0.11957336962223053
+        },
+        "page": 17
+      }
+    },
+    {
+      "markdown": "<a id='197f12bd-b5ad-4f6a-94dc-733817202e01'></a>\n\nThe study's main conclusions include:\n\n* Without interventions, WPT adoption remains very limited (under 5%) over a 30-year period.\n* Installation cost subsidies are more effective than fuel taxes in promoting WPT adoption.\n* A combination of networking effects and installation subsidies can result in adoption rates of up to 50% for certain WPT options.\n* Increasing awareness through networking tends to favor the adoption of cheaper WPT options.",
+      "type": "text",
+      "id": "197f12bd-b5ad-4f6a-94dc-733817202e01",
+      "grounding": {
+        "box": {
+          "left": 0.0822572112083435,
+          "top": 0.15728530287742615,
+          "right": 0.880000650882721,
+          "bottom": 0.4043211042881012
+        },
+        "page": 17
+      }
+    },
+    {
+      "markdown": "<a id='5ec98507-e35a-434b-818b-af37f3eccfbf'></a>\n\nFuture research directions include:\n\n1 **Model Extension**\nIncorporating other non-WPT options in the set of\navailable technologies for vessels.",
+      "type": "text",
+      "id": "5ec98507-e35a-434b-818b-af37f3eccfbf",
+      "grounding": {
+        "box": {
+          "left": 0.08320081233978271,
+          "top": 0.41966164112091064,
+          "right": 0.49693745374679565,
+          "bottom": 0.6109225749969482
+        },
+        "page": 17
+      }
+    },
+    {
+      "markdown": "<a id='ce02ff8c-4b08-4014-980e-70aaac719224'></a>\n\n3 Business Model Innovation\nStudying new ways of applying the product-service business model to generate higher WPT adoption rates in the retrofit maritime industry.",
+      "type": "text",
+      "id": "ce02ff8c-4b08-4014-980e-70aaac719224",
+      "grounding": {
+        "box": {
+          "left": 0.08473880589008331,
+          "top": 0.672927737236023,
+          "right": 0.48568761348724365,
+          "bottom": 0.827399492263794
+        },
+        "page": 17
+      }
+    },
+    {
+      "markdown": "<a id='8950dd44-0de1-462d-9894-a0b8bd4fcf2f'></a>\n\n## 2 Theoretical Modeling\n\nEmploying evolutionary game theory to include decisions from stakeholders in the maritime industry.",
+      "type": "text",
+      "id": "8950dd44-0de1-462d-9894-a0b8bd4fcf2f",
+      "grounding": {
+        "box": {
+          "left": 0.5050623416900635,
+          "top": 0.4862498641014099,
+          "right": 0.8956211805343628,
+          "bottom": 0.6449745297431946
+        },
+        "page": 17
+      }
+    },
+    {
+      "markdown": "<a id='38811785-b91e-4834-8e4a-bceef2125c1d'></a>\n\n4 Policy Optimization\nFurther exploring optimal combinations of policies and incentives to maximize WPT adoption while minimizing costs.",
+      "type": "text",
+      "id": "38811785-b91e-4834-8e4a-bceef2125c1d",
+      "grounding": {
+        "box": {
+          "left": 0.5033356547355652,
+          "top": 0.674253523349762,
+          "right": 0.8599693179130554,
+          "bottom": 0.8274831175804138
+        },
+        "page": 17
+      }
+    },
+    {
+      "markdown": "<a id='f17dbc36-28e6-4b08-bbd8-81a0a9ae6d8d'></a>\n\nThese findings and future research directions provide valuable insights for policymakers, industry stakeholders,\nand researchers working towards the decarbonization of the maritime industry through the adoption of wind-\nassisted propulsion technologies.",
+      "type": "text",
+      "id": "f17dbc36-28e6-4b08-bbd8-81a0a9ae6d8d",
+      "grounding": {
+        "box": {
+          "left": 0.08295774459838867,
+          "top": 0.8445394039154053,
+          "right": 0.8859877586364746,
+          "bottom": 0.9457169771194458
+        },
+        "page": 17
+      }
+    }
+  ],
+  "splits": [
+    {
+      "class": "page",
+      "identifier": "page_0",
+      "pages": [
+        0
+      ],
+      "markdown": "<a id='03fa8a9e-94f8-4456-b97c-b53501db25ba'></a>\n\nAdopting Wind-Assisted Ship\nPropulsion Technologies as Fleet\nRetrofit\n\n<a id='116e6c53-0bb1-49b4-b569-da10041167c4'></a>\n\nThis report examines the adoption of wind-assisted ship propulsion technologies (WPTs) as a retrofit option for existing maritime fleets. Using an agent-based modeling approach, it explores how different policy and market scenarios impact the uptake of WPT retrofitting solutions. The study incorporates real-world data on technology costs, fuel savings, and vessel features to model three WPT options. Insights from simulations identify effective policies and potential alternative business models to reduce barriers to WPT adoption in the shipping industry.\n\n<a id='8692aa0d-d642-470f-82de-f600bb67b1be'></a>\n\nby Eliseo Curcio",
+      "chunks": [
+        "03fa8a9e-94f8-4456-b97c-b53501db25ba",
+        "116e6c53-0bb1-49b4-b569-da10041167c4",
+        "8692aa0d-d642-470f-82de-f600bb67b1be"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_1",
+      "pages": [
+        1
+      ],
+      "markdown": "<a id='7725ada8-bb96-4fc1-8387-185cca335494'></a>\n\nIntroduction to Maritime Industry Emissions\n\n<a id='d1ce2911-19e5-4a29-ac0e-6e73ce027a8d'></a>\n\nThe maritime industry is a major contributor to global warming, responsible for 2.4% of global CO2 emissions. The International Maritime Organization (IMO) aims to reduce greenhouse gas emissions by 50% compared to 2008 levels before 2050. To reach this goal, the IMO relies on technological measures, operational measures, and market-based measures.\n\n<a id='42640ff6-bfed-4894-b9c7-9d3bd66118f2'></a>\n\nRelevant policy measures include:\n\n* Employment of the Energy Efficiency Design Index (EEDI)\n* Energy Efficiency existing ship Index (EEXI)\n* Potential inclusion of shipping in the EU ETS directive\n* Mandatory fuel records and reports of oil consumption for ships above 5000 gross tonnage\n\n<a id='85025297-6d85-45e2-b85b-60e67ead05e4'></a>\n\nThe EEDI is the most important measure to tackle CO2 emissions from shipping, requiring new ship builds after 2013 to implement carbon reduction technical measures. The EEXI expanded this requirement to all ships above 5000 GT in 2021.",
+      "chunks": [
+        "7725ada8-bb96-4fc1-8387-185cca335494",
+        "d1ce2911-19e5-4a29-ac0e-6e73ce027a8d",
+        "42640ff6-bfed-4894-b9c7-9d3bd66118f2",
+        "85025297-6d85-45e2-b85b-60e67ead05e4"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_2",
+      "pages": [
+        2
+      ],
+      "markdown": "<a id='1a7597af-6cf3-48af-8d55-8d363712fd34'></a>\n\nCleaner Shipping and Alternative Fuels\n\n<a id='62d4d1b1-a718-4f24-aae7-905e494a5148'></a>\n\nCleaner shipping encompasses strategies to comply with international commitments to reduce carbon footprints and emissions from seaborne transportation operations. Historically, petroleum derivatives have been the primary fuel for internal combustion engines on ships. However, recent literature has focused on alternative, low- and zero-carbon, or \"greener\" fuels.\n\n<a id='4c0ab35a-739f-4663-ae4d-b4b2230b7c32'></a>\n\nAlternative fuel options include:\n* Biofuels and liquefied biogas (LBG)\n* Liquefied natural gas (LNG)\n* Hydrogen and ammonia\n* Wind-assisted shipping propulsion technologies (WPTs)\n\n<a id='e22c08c4-7909-46bd-9936-2701dcae09cb'></a>\n\nWPTs comprise a possible technical alternative for the decarbonization of shipping as a complementary propulsion system to batteries or fossil fuel propulsion systems.",
+      "chunks": [
+        "1a7597af-6cf3-48af-8d55-8d363712fd34",
+        "62d4d1b1-a718-4f24-aae7-905e494a5148",
+        "4c0ab35a-739f-4663-ae4d-b4b2230b7c32",
+        "e22c08c4-7909-46bd-9936-2701dcae09cb"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_3",
+      "pages": [
+        3
+      ],
+      "markdown": "<a id='26619028-f515-44b8-86f7-52fe42f3d6af'></a>\n\nWind-Assisted Propulsion Technologies\n(WPTs)\n\n<a id='5b1916a1-0028-466f-9c89-d02cd53914a3'></a>\n\nWind-assisted propulsion technologies (WPTs) have re-emerged as a potential solution for decarbonizing shipping. Wind is considered a free and renewable source of energy, giving it a comparative advantage over other emerging \"cleaner\" propulsion technologies in shipping.\n\n<a id='95b3ec38-3e61-4198-a9fd-b46616d66c48'></a>\n\n<::\n: flowchart::>\n1. **Ancient Technology**\nThe use of wind propulsion for ships is an ancient technological development.\n2. **Re-emergence**\nWPTs have re-emerged in line with the need to decarbonize shipping.\n3. **Modern Adaptation**\nA variety of modernized wind propulsion devices are being developed with the primary purpose of reducing fuel consumption and air polluting emissions.\n4. **Hybridization**\nWPTs are now primarily considered as a retrofit option in existing ships to reduce fuel consumption, rather than as the main form of propulsion.\n\n<a id='daa593ab-e716-4198-8e02-e6dcbec7831c'></a>\n\nHybridization is considered key for the further adoption of WPTs in shipping fleets, with wind propulsion assisting the main diesel or bio-diesel engines to ensure schedules are maintained.",
+      "chunks": [
+        "26619028-f515-44b8-86f7-52fe42f3d6af",
+        "5b1916a1-0028-466f-9c89-d02cd53914a3",
+        "95b3ec38-3e61-4198-a9fd-b46616d66c48",
+        "daa593ab-e716-4198-8e02-e6dcbec7831c"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_4",
+      "pages": [
+        4
+      ],
+      "markdown": "<a id='6b1d8c4a-0744-40eb-99e9-cc4f5b2f2e16'></a>\n\nTypes of Wind-Assisted Propulsion\nTechnologies\n\n<a id='bf1e1dcb-ac7a-4330-b4dc-bc5894f43d0f'></a>\n\nCommercially available WPTs can be grouped into three main categories:\n\n<a id='668545c0-9a63-425f-a6b7-9c4b0f382657'></a>\n\n# Towing Kites\nAllows the ship to benefit from\nwind lift at high altitudes.\nExamples include prototypes\ncreated by suppliers such as\nSkySails in the early 2010s.\n\n<a id='ba4979b3-5942-4913-bd62-fa14147f3adb'></a>\n\n# Sails\n\nIncludes both rigid and soft sails, which are variations of traditional sails but with modern features. Examples include JAMDA and Walker wingsail-type rigid sails, suction wings, and soft sails like PintaRig and DynaRig.\n\n<a id='012fec66-7030-4f5b-9712-44fe5283b687'></a>\n\n## Flettner Rotors\nThe most commercially diffuse\nWPT. Works under the Magnus\neffect, generating lifting and\ndrag forces in the spinning\nelectric motor-aided cylinder\naboard the vessel.\n\n<a id='3f0b9b53-0a38-4a51-9e32-577b1670cc9c'></a>\n\nOther reported but less diffused technologies in commercial shipping include wind turbines and hull sails.",
+      "chunks": [
+        "6b1d8c4a-0744-40eb-99e9-cc4f5b2f2e16",
+        "bf1e1dcb-ac7a-4330-b4dc-bc5894f43d0f",
+        "668545c0-9a63-425f-a6b7-9c4b0f382657",
+        "ba4979b3-5942-4913-bd62-fa14147f3adb",
+        "012fec66-7030-4f5b-9712-44fe5283b687",
+        "3f0b9b53-0a38-4a51-9e32-577b1670cc9c"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_5",
+      "pages": [
+        5
+      ],
+      "markdown": "<a id='f3048ead-3aa9-4dc0-b5e5-87a1930f962c'></a>\n\nTowing Kites\n\n<a id='edf47df9-2b4b-41a0-a5a4-4558ec4f2df6'></a>\n\nTowing kites are a type of wind-assisted propulsion technology that allows ships to benefit from wind lift at high altitudes. The name was used for a number of prototypes created by suppliers such as SkySails in the early 2010s.\n\n<a id='a8815cb3-df87-4f7e-8098-be2600e21b93'></a>\n\nA recent study by Zhang et al. (2021) compared the economic and technical feasibility of installing towing kites on a ship's bow (parafoils) with the use of Flettner rotors. The study considered the following parameters:\n\n* Route: Gibraltar to Panama round trip\n* Ship type: Supramax bulk carrier\n* Engine type: MAN 6S50ME-B9\n* Cruise speed: 14.4 knots\n* Load: 82.9%\n* Daily fuel consumption: 25 tonnes\n\n<a id='b6d2128d-855b-4238-a50b-2d4af027f738'></a>\n\nThe simulation reported a fuel saving of around 1% for towing kites. The study also highlighted the potential of combining weather routing tools with WPTs as a way to increase fuel savings.",
+      "chunks": [
+        "f3048ead-3aa9-4dc0-b5e5-87a1930f962c",
+        "edf47df9-2b4b-41a0-a5a4-4558ec4f2df6",
+        "a8815cb3-df87-4f7e-8098-be2600e21b93",
+        "b6d2128d-855b-4238-a50b-2d4af027f738"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_6",
+      "pages": [
+        6
+      ],
+      "markdown": "<a id='c0aebeaf-38fa-437b-814f-27390e60727d'></a>\n\nSails: Rigid and Soft\n\n<a id='bbb5531e-b8f3-4695-8747-86e55e5a687e'></a>\n\nSails comprise both rigid and soft variations, which are modern adaptations of traditional sails. Several rigid sail models have been considered in the literature, including:\n\n<a id='3546cbb8-38ae-41e2-9ea5-e6fe47c35817'></a>\n\n- Japan Marine Machinery Development Association (JAMDA) sails\n- Walker wingsail-type rigid sails\n- Suction wings (e.g., Econowind's Ventifoil model)\n\n<a id='0f46133b-b0f4-439e-af33-d484819f4b93'></a>\n\nSoft sails include models such as:\n* PintaRig\n* DynaRig\n* Delta-wing sails\n* FastRigs\n\n<a id='379c5a5c-105d-48fd-b750-bc786c42e157'></a>\n\nRigid sails in the 1980s yielded a fuel consumption reduction of between 10% and 30% in wind favorable conditions. DynaRig is gaining popularity due to its maneuverability and safety characteristics.\n\n<a id='0f592a08-6377-4289-ba63-6997b28506ec'></a>\n\nHybrid sail concepts, which incorporate design components of both soft and rigid sails, have also been developed.\nExamples include the Japanese National Maritime Research Institute's hybrid sail concept and the DynaRig.\nHowever, these concepts are not currently considered commercially viable due to their high costs.",
+      "chunks": [
+        "c0aebeaf-38fa-437b-814f-27390e60727d",
+        "bbb5531e-b8f3-4695-8747-86e55e5a687e",
+        "3546cbb8-38ae-41e2-9ea5-e6fe47c35817",
+        "0f46133b-b0f4-439e-af33-d484819f4b93",
+        "379c5a5c-105d-48fd-b750-bc786c42e157",
+        "0f592a08-6377-4289-ba63-6997b28506ec"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_7",
+      "pages": [
+        7
+      ],
+      "markdown": "<a id='0543c811-943c-4fc5-b2ba-b8a1dd91cd73'></a>\n\nFlettner Rotors\n\n<a id='56b17e74-6c20-4727-9339-7c23e1614744'></a>\n\nFlettner rotors are the most commercially diffuse wind-assisted propulsion technology. This technology originated 100 years ago as a result of tests with the ships Buckau and Barbara. Flettner rotors work under the Magnus effect, which generates lifting and drag forces in the spinning electric motor-aided cylinder aboard the vessel.\n\n<a id='a9c14483-ecff-4466-872c-57136422780d'></a>\n\nKey points about Flettner rotors:\n\n* Extensively simulated and well-known by policymakers\n* Research has been conducted on several parameters influencing aerodynamic performance, including velocity ratio, endplate size, and aspect ratio\n* Real-life experiments and desk studies have reported on the inclusion of several Flettner rotors in the installation layout to boost fuel saving potential\n* Some dry bulkers require tiltable Flettner rotors to avoid conflict with hatches, cranes, or other port-related infrastructure\n* Studies have concluded that their use could lead to large potential savings in installation and maintenance costs of up to 40% considering different routes and sailing conditions",
+      "chunks": [
+        "0543c811-943c-4fc5-b2ba-b8a1dd91cd73",
+        "56b17e74-6c20-4727-9339-7c23e1614744",
+        "a9c14483-ecff-4466-872c-57136422780d"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_8",
+      "pages": [
+        8
+      ],
+      "markdown": "<a id='c46acb32-75b1-4e80-9c0e-c69d08c537be'></a>\n\nFactors Affecting WPT Performance\n\n<a id='1b3790cd-b26c-4afc-970f-746f9be4bd1b'></a>\n\nThe fuel savings and performance of wind propulsion devices on ships depend on several factors:\n\n<a id='8bec0a31-7e41-44db-957c-552b26e38dab'></a>\n\n# Ship Design\n\nThe rig and hull design of the ship can significantly impact the effectiveness of WPTs. Some designs may be more conducive to certain types of wind propulsion technologies.\n\n<a id='377a9cb5-37f9-46aa-95e1-af6cb476ea41'></a>\n\n# Operation Speed\n\nThe speed at which the ship operates affects the potential fuel savings from WPTs. Generally, lower speeds allow for greater relative contributions from wind propulsion.\n\n<a id='036f3255-8e61-4a2a-b35d-22d0f9a66060'></a>\n\n# Wind Conditions\n\nWind speeds and directions play a crucial role in the performance of WPTs. Favorable wind conditions can significantly increase fuel savings, while unfavorable conditions may limit their effectiveness.\n\n<a id='9dd17a55-7139-417e-823a-00cd3af4056f'></a>\n\nThe IMO Marine Environment Protection Committee (MEPC) concluded that WPTs can be accommodated as an auxiliary source of power in the calculation of EEDI and EEXI. This recognition highlights the potential role of WPTs in the IMO strategy to reduce greenhouse gas emissions of international shipping.",
+      "chunks": [
+        "c46acb32-75b1-4e80-9c0e-c69d08c537be",
+        "1b3790cd-b26c-4afc-970f-746f9be4bd1b",
+        "8bec0a31-7e41-44db-957c-552b26e38dab",
+        "377a9cb5-37f9-46aa-95e1-af6cb476ea41",
+        "036f3255-8e61-4a2a-b35d-22d0f9a66060",
+        "9dd17a55-7139-417e-823a-00cd3af4056f"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_9",
+      "pages": [
+        9
+      ],
+      "markdown": "<a id='76bf29ec-f165-4991-9fb2-5a0493dafe92'></a>\n\nEconomic Considerations for WPT Adoption\n\n<a id='425c4b11-5ca9-489c-9c9b-92b95ee2a704'></a>\n\nThe financial appeal of reducing operational costs is a key driver for shipping companies to embrace wind propulsion. Several studies have calculated the potential economic benefits of WPTs. Common conclusions include:\n\n* Fuel prices need to be high for WPT solutions to be competitive\n* The type of vessel is important when it comes to financial benefits, with particular reference to ocean-going low-speed bulk carriers and oil tankers\n* The capacity of vessels to accommodate additional wind propulsion structures on deck is a technical consideration\n\n<a id='16472cf0-9555-4529-ab06-1caae4451661'></a>\n\nHowever, several barriers hinder the uptake of WPTs:\n\n<a id='e0211ba9-ee95-4268-a39b-f8c812c18ba0'></a>\n\n1 Financial Constraints\n\nCost and access to capital, as well as economic constraints, can limit investment in WPTs.\n\n<a id='e7479f14-e8c9-44f8-be15-c60f81b6a413'></a>\n\n3 Technical Uncertainties\nLack of trusted information, safety and reliability concerns, and technical uncertainties can deter adoption.\n\n<a id='027867e6-7afb-469f-948c-7b352919aaad'></a>\n\n## 2 Market Factors\n\nMarket constraints and split incentives between charterers and shipowners can complicate the decision to adopt WPTs.\n\n<a id='918d6dc2-dcc9-4428-8dbd-04c30d9d7f05'></a>\n\n4 Institutional Barriers\n\nRegulations in place and poor knowledge infrastructure can slow the adoption of WPTs.",
+      "chunks": [
+        "76bf29ec-f165-4991-9fb2-5a0493dafe92",
+        "425c4b11-5ca9-489c-9c9b-92b95ee2a704",
+        "16472cf0-9555-4529-ab06-1caae4451661",
+        "e0211ba9-ee95-4268-a39b-f8c812c18ba0",
+        "e7479f14-e8c9-44f8-be15-c60f81b6a413",
+        "027867e6-7afb-469f-948c-7b352919aaad",
+        "918d6dc2-dcc9-4428-8dbd-04c30d9d7f05"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_10",
+      "pages": [
+        10
+      ],
+      "markdown": "<a id='fa32bd57-170c-4a67-b9c5-3758f21b4c8c'></a>\n\nAgent-Based Modeling for WPT Adoption\n\n<a id='1bc0ca22-b3a4-4241-8248-e73047bb53ae'></a>\n\nAgent-based modeling (ABM) is an increasingly popular research method for analyzing the adoption of green products and eco-innovations. ABM originates from complex systems theories, based on the principles that rules governing the behavior of agents at the micro level can concatenate to simulate what happens at a macro scale.\n\n<a id='de5052bf-1b98-4591-9243-d210509b207e'></a>\n\nKey features of ABM for modeling WPT adoption:\n\n* Allows consideration of heterogeneity among technology suppliers and adopters\n* Enables observation of aggregated micro-level interactions at the macro-level, where policy effects are primarily observed\n* Facilitates the simulation of network effects and word-of-mouth processes\n* Provides flexibility to understand the effects of given combinations of market and political conditions\n\n<a id='3149a6ad-f520-4018-9958-15e202f26a33'></a>\n\nIn the context of WPT adoption, ABM can be used to simulate how different policy interventions and market scenarios impact the decisions of shipowners to adopt wind-assisted propulsion technologies.",
+      "chunks": [
+        "fa32bd57-170c-4a67-b9c5-3758f21b4c8c",
+        "1bc0ca22-b3a4-4241-8248-e73047bb53ae",
+        "de5052bf-1b98-4591-9243-d210509b207e",
+        "3149a6ad-f520-4018-9958-15e202f26a33"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_11",
+      "pages": [
+        11
+      ],
+      "markdown": "<a id='3e81b93f-5963-4485-a822-62e02140c897'></a>\n\n<::transcription of the content\n: abstract background image::>\n\n<a id='ebd73f70-264d-4ebf-bc9f-30e8f70652ba'></a>\n\nModel Structure and Features\n\n<a id='3dae6ebb-fe92-4a11-8be3-443980add60e'></a>\n\nThe agent-based model developed for this study represents a population of vessels with heterogeneous features and a set of WPT options. The model simulates WPT adoption over time, with each time step representing one month.\n\n<a id='d574bbef-659a-4885-b045-de593e31ca18'></a>\n\nKey components of the model:\n\n<a id='80acb0ef-7545-430d-b08c-dd9828a8eb71'></a>\n\n**Vessel Population**\n\nIncludes heterogeneous vessels\nbelonging to different shipowners, with\nfeatures such as age, fuel\nconsumption, and awareness of WPT.\n\n<a id='2606e714-2d45-4f12-9f72-0570deef645b'></a>\n\n# WPT Options\nDefines a set of wind-based clean\ntechnological options, each with\nmaintenance costs, installation costs,\nand fuel consumption reduction ratios.\n\n<a id='f59cdf21-3d1c-421d-8374-5c9f2be320bf'></a>\n\n## Social Network\n\nConnects vessels through an artificial social network to simulate word-of-mouth processes.\n\n<a id='8990aab4-8075-46c8-a5c7-0123b4eeba1b'></a>\n\n**Awareness Mechanism**\nUses the Bass diffusion model to\nsimulate the spread of awareness\nabout WPT innovations.\n\n<a id='f4bd27a6-c183-4d8d-b18b-df3015cfdf1a'></a>\n\nThe model has two main stages: eco-innovation awareness and utility-based vessel adoption of a WPT option. This structure allows for a more nuanced representation of the adoption process.",
+      "chunks": [
+        "3e81b93f-5963-4485-a822-62e02140c897",
+        "ebd73f70-264d-4ebf-bc9f-30e8f70652ba",
+        "3dae6ebb-fe92-4a11-8be3-443980add60e",
+        "d574bbef-659a-4885-b045-de593e31ca18",
+        "80acb0ef-7545-430d-b08c-dd9828a8eb71",
+        "2606e714-2d45-4f12-9f72-0570deef645b",
+        "f59cdf21-3d1c-421d-8374-5c9f2be320bf",
+        "8990aab4-8075-46c8-a5c7-0123b4eeba1b",
+        "f4bd27a6-c183-4d8d-b18b-df3015cfdf1a"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_12",
+      "pages": [
+        12
+      ],
+      "markdown": "<a id='1f3e5cc8-bfa5-44b2-b344-82160a026f78'></a>\n\nDecision-Making Process for WPT Adoption\n\n<a id='f17cfc81-bf06-468e-aab5-aac2510b4846'></a>\n\nThe model incorporates a decision-making process for vessels to choose among available WPT options. This process is based on the following steps:\n\n<a id='baf6b5f2-5449-4505-8245-beb8f14ce619'></a>\n\n<table id=\"12-1\">\n<tr><td id=\"12-2\">1</td><td id=\"12-3\">Operational Status Check The vessel must be operating within its lifetime (remaining years of operation > 0).</td></tr>\n<tr><td id=\"12-4\">2</td><td id=\"12-5\">Awareness Check The vessel must be aware of the WPT options (awareness = 1).</td></tr>\n<tr><td id=\"12-6\">3</td><td id=\"12-7\">Utility Calculation The model calculates the expected net present value (NPV) for each WPT option for the vessel.</td></tr>\n<tr><td id=\"12-8\">4</td><td id=\"12-9\">Option Evaluation If any options have a positive utility value, the vessel calculates the probability of acquiring each option.</td></tr>\n<tr><td id=\"12-a\">5</td><td id=\"12-b\">Selection The vessel selects a WPT option based on the calculated probabilities, with higher utility values having a higher chance of being chosen.</td></tr>\n</table>\n\n<a id='7243a371-30fe-4c98-8807-032af7a6fb99'></a>\n\nThis decision-making process allows for a realistic representation of how shipowners might evaluate and choose among different WPT options based on their specific vessel characteristics and economic considerations.",
+      "chunks": [
+        "1f3e5cc8-bfa5-44b2-b344-82160a026f78",
+        "f17cfc81-bf06-468e-aab5-aac2510b4846",
+        "baf6b5f2-5449-4505-8245-beb8f14ce619",
+        "7243a371-30fe-4c98-8807-032af7a6fb99"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_13",
+      "pages": [
+        13
+      ],
+      "markdown": "<a id='d5c55ef4-bcab-40dc-a632-70c5da95d08d'></a>\n\nData Sources and Experimental Setup\n\n<a id='7b04a5e2-9863-4d26-97ae-d5b92e3c5aeb'></a>\n\nThe study incorporates real-world data from various sources to ensure the model's relevance and accuracy:\n\n* WPT option data: Collected from the Wind Assisted Ship Propulsion (WASP) project, funded by the EU, for three alternatives: Flettner rotors, Ventifoil, and wingsail technologies.\n* Vessel data: Extracted from the Clarksons database, focusing on all types of vessels with dead-weight tonnage from 2,000 to 6,500.\n* Fuel price data: Set to 500 €/mt at the beginning of simulations, based on Clarkson's study and internal data from WASP project pilot ships.\n\n<a id='ff712eae-a7f8-4949-a526-0ab667447f7d'></a>\n\nExperimental setup details:\n\n* Java-based simulation software platform\n* 30 independent Monte Carlo realizations with different random seeds\n* 360 synchronous time steps (30 years of simulation)\n* Maximum vessel lifetime set to 30 years\n* Two fuel pricing scenarios: monthly-based pessimistic and yearly-based less pessimistic\n\n<a id='8f0e6d31-32af-4c54-bcad-fa697c64c0e3'></a>\n\nThis combination of real-world data and carefully designed experimental parameters ensures that the model provides meaningful insights into WPT adoption dynamics.",
+      "chunks": [
+        "d5c55ef4-bcab-40dc-a632-70c5da95d08d",
+        "7b04a5e2-9863-4d26-97ae-d5b92e3c5aeb",
+        "ff712eae-a7f8-4949-a526-0ab667447f7d",
+        "8f0e6d31-32af-4c54-bcad-fa697c64c0e3"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_14",
+      "pages": [
+        14
+      ],
+      "markdown": "<a id='f20f142c-0599-4995-a70c-8bf0d899ef52'></a>\n\nModel Validation and Calibration\n\n<a id='f0f138c2-39fd-4f1b-9170-3b58db8f7855'></a>\n\nThe model's diffusion dynamics were validated and calibrated using the following approach:\n\n1. Bass model parameters (p̂ and q̂) were calibrated based on previous literature on energy efficient technologies and eco-innovations.\n2. Different scale-free social network densities were compared to understand their impact on technology awareness diffusion.\n3. Initial awareness rates of the population were varied to assess their effect on adoption patterns.\n4. The calibrated values for p̂ and q̂ were set to 0.00118 and 0.039, respectively.\n5. A network with m = 4 (SF4) was chosen for the study to avoid extreme diffusion results with a low initial awareness of 1%.\n\n<a id='ccf48934-20f4-48e5-8be8-d43402c32aae'></a>\n\nThe validation process ensured that the diffusion process of awareness had a shape similar to that reported in comparable energy markets, providing confidence in the model's ability to simulate realistic adoption patterns.",
+      "chunks": [
+        "f20f142c-0599-4995-a70c-8bf0d899ef52",
+        "f0f138c2-39fd-4f1b-9170-3b58db8f7855",
+        "ccf48934-20f4-48e5-8be8-d43402c32aae"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_15",
+      "pages": [
+        15
+      ],
+      "markdown": "<a id='31f62638-afc4-4a6e-802a-47ca83a97d29'></a>\n\nKey Findings: Baseline Scenario\n\n<a id='e3eb43ea-7e83-4485-9710-4d3c6ed5d16a'></a>\n\nThe study evaluated WPT adoption under a baseline scenario with no interventions. Key findings include:\n\n<a id='18e55cc2-fae6-4a5b-866d-0ceef234a6d5'></a>\n\n1 Low Adoption Levels\nWithout interventions, adoption of all three WPT\noptions was very limited over the 30-year\nsimulation period.\n\n<a id='e6529a12-403c-41c0-8e9a-cf067aeb324f'></a>\n\n## 2 Wingsail Preference\nThe Wingsail option was the most successful technology, but its maximum adoption rate was only 4.1% (250 vessels out of 6,009) after 30 years.\n\n<a id='bcbf2db3-2b27-4042-97c9-2976e41e4f6e'></a>\n\n3 Fuel Price Impact\nHigher adoption rates were observed in the monthly updated fuel price scenario, which resulted in higher prices over time.\n\n<a id='ae64b7b7-25d3-4392-94d2-51a2f448c963'></a>\n\n4 Sailing Distance Effect\nLonger sailing distances (e.g., 60,000 nm) led to higher adoption rates, as fuel savings from WPT adoption become more significant.\n\n<a id='050ccfb6-b2aa-427c-93b4-bd3f44ba5c91'></a>\n\nThese findings highlight the challenges of WPT adoption without supportive policies or market interventions.",
+      "chunks": [
+        "31f62638-afc4-4a6e-802a-47ca83a97d29",
+        "e3eb43ea-7e83-4485-9710-4d3c6ed5d16a",
+        "18e55cc2-fae6-4a5b-866d-0ceef234a6d5",
+        "e6529a12-403c-41c0-8e9a-cf067aeb324f",
+        "bcbf2db3-2b27-4042-97c9-2976e41e4f6e",
+        "ae64b7b7-25d3-4392-94d2-51a2f448c963",
+        "050ccfb6-b2aa-427c-93b4-bd3f44ba5c91"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_16",
+      "pages": [
+        16
+      ],
+      "markdown": "<a id='22577e9a-7672-409f-bf01-eb500a8966b9'></a>\n\nPolicy Interventions and Their Effects\n\n<a id='497e034f-e33e-4446-ae5d-e387763c0b6b'></a>\n\nThe study explored the effects of various policy interventions on WPT adoption:\n\n<a id='a852e26c-a1e5-4976-b4af-da9da5723f38'></a>\n\n# Installation Cost Subsidies\n\nProviding subsidies to reduce the initial capital or installation costs of WPT options. This intervention had a significant impact on adoption rates, particularly when subsidies were high.\n\n<a id='b892104f-7f7e-4581-a033-938080e3190e'></a>\n\n# Fuel Consumption Tax\n\nApplying a tax on each metric ton of fuel used by vessels. This intervention had a less pronounced effect compared to installation cost subsidies.\n\n<a id='af4b19fb-4dfe-428c-9598-28753f0a73b8'></a>\n\n**Increased Networking**\n\nRaising the initial awareness level of WPT technologies through networking activities. This intervention, combined with other policies, led to increased adoption rates and shifts in technology preferences.\n\n<a id='73bb31d7-1858-48a6-8393-0db1e057b5c1'></a>\n\nKey findings from policy intervention simulations:\n\n* Installation cost subsidies were more effective than fuel taxes in promoting WPT adoption.\n* High subsidies led to increased adoption of the Wingsail option, while mid-range subsidies favored the Ventifoil option.\n* Combining networking effects with installation subsidies resulted in adoption rates of up to 50% for certain WPT options.\n* Increased awareness through networking tended to favor the adoption of cheaper WPT options.\n\n<a id='234244b9-b1b6-4139-9f35-5cc08da3100f'></a>\n\nThese results provide valuable insights for policymakers and industry stakeholders on effective strategies to promote WPT adoption in the shipping industry.",
+      "chunks": [
+        "22577e9a-7672-409f-bf01-eb500a8966b9",
+        "497e034f-e33e-4446-ae5d-e387763c0b6b",
+        "a852e26c-a1e5-4976-b4af-da9da5723f38",
+        "b892104f-7f7e-4581-a033-938080e3190e",
+        "af4b19fb-4dfe-428c-9598-28753f0a73b8",
+        "73bb31d7-1858-48a6-8393-0db1e057b5c1",
+        "234244b9-b1b6-4139-9f35-5cc08da3100f"
+      ]
+    },
+    {
+      "class": "page",
+      "identifier": "page_17",
+      "pages": [
+        17
+      ],
+      "markdown": "<a id='68551efc-5e4c-4743-a803-2eb88377f9ad'></a>\n\nConclusions and Future Work\n\n<a id='197f12bd-b5ad-4f6a-94dc-733817202e01'></a>\n\nThe study's main conclusions include:\n\n* Without interventions, WPT adoption remains very limited (under 5%) over a 30-year period.\n* Installation cost subsidies are more effective than fuel taxes in promoting WPT adoption.\n* A combination of networking effects and installation subsidies can result in adoption rates of up to 50% for certain WPT options.\n* Increasing awareness through networking tends to favor the adoption of cheaper WPT options.\n\n<a id='5ec98507-e35a-434b-818b-af37f3eccfbf'></a>\n\nFuture research directions include:\n\n1 **Model Extension**\nIncorporating other non-WPT options in the set of\navailable technologies for vessels.\n\n<a id='ce02ff8c-4b08-4014-980e-70aaac719224'></a>\n\n3 Business Model Innovation\nStudying new ways of applying the product-service business model to generate higher WPT adoption rates in the retrofit maritime industry.\n\n<a id='8950dd44-0de1-462d-9894-a0b8bd4fcf2f'></a>\n\n## 2 Theoretical Modeling\n\nEmploying evolutionary game theory to include decisions from stakeholders in the maritime industry.\n\n<a id='38811785-b91e-4834-8e4a-bceef2125c1d'></a>\n\n4 Policy Optimization\nFurther exploring optimal combinations of policies and incentives to maximize WPT adoption while minimizing costs.\n\n<a id='f17dbc36-28e6-4b08-bbd8-81a0a9ae6d8d'></a>\n\nThese findings and future research directions provide valuable insights for policymakers, industry stakeholders,\nand researchers working towards the decarbonization of the maritime industry through the adoption of wind-\nassisted propulsion technologies.",
+      "chunks": [
+        "68551efc-5e4c-4743-a803-2eb88377f9ad",
+        "197f12bd-b5ad-4f6a-94dc-733817202e01",
+        "5ec98507-e35a-434b-818b-af37f3eccfbf",
+        "ce02ff8c-4b08-4014-980e-70aaac719224",
+        "8950dd44-0de1-462d-9894-a0b8bd4fcf2f",
+        "38811785-b91e-4834-8e4a-bceef2125c1d",
+        "f17dbc36-28e6-4b08-bbd8-81a0a9ae6d8d"
+      ]
+    }
+  ],
+  "grounding": {
+    "03fa8a9e-94f8-4456-b97c-b53501db25ba": {
+      "box": {
+        "left": 0.0775521993637085,
+        "top": 0.14893047511577606,
+        "right": 0.9186930060386658,
+        "bottom": 0.5091692209243774
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "116e6c53-0bb1-49b4-b569-da10041167c4": {
+      "box": {
+        "left": 0.08099925518035889,
+        "top": 0.5473721623420715,
+        "right": 0.8929821848869324,
+        "bottom": 0.7780997157096863
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "8692aa0d-d642-470f-82de-f600bb67b1be": {
+      "box": {
+        "left": 0.0808180645108223,
+        "top": 0.7896820306777954,
+        "right": 0.2785990238189697,
+        "bottom": 0.8592180013656616
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "7725ada8-bb96-4fc1-8387-185cca335494": {
+      "box": {
+        "left": 0.0829862654209137,
+        "top": 0.11433578282594681,
+        "right": 0.9170607328414917,
+        "bottom": 0.20187163352966309
+      },
+      "page": 1,
+      "type": "chunkText"
+    },
+    "d1ce2911-19e5-4a29-ac0e-6e73ce027a8d": {
+      "box": {
+        "left": 0.08276620507240295,
+        "top": 0.25232118368148804,
+        "right": 0.9085586071014404,
+        "bottom": 0.42600011825561523
+      },
+      "page": 1,
+      "type": "chunkText"
+    },
+    "42640ff6-bfed-4894-b9c7-9d3bd66118f2": {
+      "box": {
+        "left": 0.08324003219604492,
+        "top": 0.4529062509536743,
+        "right": 0.7701562643051147,
+        "bottom": 0.7332427501678467
+      },
+      "page": 1,
+      "type": "chunkText"
+    },
+    "85025297-6d85-45e2-b85b-60e67ead05e4": {
+      "box": {
+        "left": 0.08341485261917114,
+        "top": 0.7543486952781677,
+        "right": 0.8910272717475891,
+        "bottom": 0.886639416217804
+      },
+      "page": 1,
+      "type": "chunkText"
+    },
+    "1a7597af-6cf3-48af-8d55-8d363712fd34": {
+      "box": {
+        "left": 0.08177649974822998,
+        "top": 0.1276465803384781,
+        "right": 0.8101648092269897,
+        "bottom": 0.23087157309055328
+      },
+      "page": 2,
+      "type": "chunkText"
+    },
+    "62d4d1b1-a718-4f24-aae7-905e494a5148": {
+      "box": {
+        "left": 0.08170205354690552,
+        "top": 0.2717629075050354,
+        "right": 0.9107925295829773,
+        "bottom": 0.4512205719947815
+      },
+      "page": 2,
+      "type": "chunkText"
+    },
+    "4c0ab35a-739f-4663-ae4d-b4b2230b7c32": {
+      "box": {
+        "left": 0.08319143950939178,
+        "top": 0.47388023138046265,
+        "right": 0.5189694166183472,
+        "bottom": 0.7538971304893494
+      },
+      "page": 2,
+      "type": "chunkText"
+    },
+    "e22c08c4-7909-46bd-9936-2701dcae09cb": {
+      "box": {
+        "left": 0.08324381709098816,
+        "top": 0.775057852268219,
+        "right": 0.912589430809021,
+        "bottom": 0.8681847453117371
+      },
+      "page": 2,
+      "type": "chunkText"
+    },
+    "26619028-f515-44b8-86f7-52fe42f3d6af": {
+      "box": {
+        "left": 0.08084651827812195,
+        "top": 0.05061943084001541,
+        "right": 0.8216735124588013,
+        "bottom": 0.19820737838745117
+      },
+      "page": 3,
+      "type": "chunkText"
+    },
+    "5b1916a1-0028-466f-9c89-d02cd53914a3": {
+      "box": {
+        "left": 0.08244800567626953,
+        "top": 0.21994265913963318,
+        "right": 0.913442850112915,
+        "bottom": 0.32344916462898254
+      },
+      "page": 3,
+      "type": "chunkText"
+    },
+    "95b3ec38-3e61-4198-a9fd-b46616d66c48": {
+      "box": {
+        "left": 0.08591791987419128,
+        "top": 0.33761975169181824,
+        "right": 0.9086040258407593,
+        "bottom": 0.8512102365493774
+      },
+      "page": 3,
+      "type": "chunkFigure"
+    },
+    "daa593ab-e716-4198-8e02-e6dcbec7831c": {
+      "box": {
+        "left": 0.08329880237579346,
+        "top": 0.8775153160095215,
+        "right": 0.9004842638969421,
+        "bottom": 0.949264407157898
+      },
+      "page": 3,
+      "type": "chunkText"
+    },
+    "6b1d8c4a-0744-40eb-99e9-cc4f5b2f2e16": {
+      "box": {
+        "left": 0.08142659068107605,
+        "top": 0.0831139013171196,
+        "right": 0.7311981916427612,
+        "bottom": 0.2668265402317047
+      },
+      "page": 4,
+      "type": "chunkText"
+    },
+    "bf1e1dcb-ac7a-4330-b4dc-bc5894f43d0f": {
+      "box": {
+        "left": 0.08428889513015747,
+        "top": 0.3097474277019501,
+        "right": 0.6146498322486877,
+        "bottom": 0.3587789833545685
+      },
+      "page": 4,
+      "type": "chunkText"
+    },
+    "668545c0-9a63-425f-a6b7-9c4b0f382657": {
+      "box": {
+        "left": 0.08448195457458496,
+        "top": 0.37793368101119995,
+        "right": 0.3596513271331787,
+        "bottom": 0.8495753407478333
+      },
+      "page": 4,
+      "type": "chunkText"
+    },
+    "ba4979b3-5942-4913-bd62-fa14147f3adb": {
+      "box": {
+        "left": 0.364693284034729,
+        "top": 0.38037723302841187,
+        "right": 0.6365528106689453,
+        "bottom": 0.8486725687980652
+      },
+      "page": 4,
+      "type": "chunkText"
+    },
+    "012fec66-7030-4f5b-9712-44fe5283b687": {
+      "box": {
+        "left": 0.6434578895568848,
+        "top": 0.37953805923461914,
+        "right": 0.9148702621459961,
+        "bottom": 0.8481185436248779
+      },
+      "page": 4,
+      "type": "chunkText"
+    },
+    "3f0b9b53-0a38-4a51-9e32-577b1670cc9c": {
+      "box": {
+        "left": 0.08417955040931702,
+        "top": 0.8693745136260986,
+        "right": 0.8427257537841797,
+        "bottom": 0.9179514646530151
+      },
+      "page": 4,
+      "type": "chunkText"
+    },
+    "f3048ead-3aa9-4dc0-b5e5-87a1930f962c": {
+      "box": {
+        "left": 0.08345137536525726,
+        "top": 0.10992951691150665,
+        "right": 0.32755863666534424,
+        "bottom": 0.19919513165950775
+      },
+      "page": 5,
+      "type": "chunkText"
+    },
+    "edf47df9-2b4b-41a0-a5a4-4558ec4f2df6": {
+      "box": {
+        "left": 0.0827552080154419,
+        "top": 0.24252700805664062,
+        "right": 0.909500002861023,
+        "bottom": 0.33322495222091675
+      },
+      "page": 5,
+      "type": "chunkText"
+    },
+    "a8815cb3-df87-4f7e-8098-be2600e21b93": {
+      "box": {
+        "left": 0.08121171593666077,
+        "top": 0.3569583296775818,
+        "right": 0.9161391258239746,
+        "bottom": 0.7834543585777283
+      },
+      "page": 5,
+      "type": "chunkText"
+    },
+    "b6d2128d-855b-4238-a50b-2d4af027f738": {
+      "box": {
+        "left": 0.08324259519577026,
+        "top": 0.8062506914138794,
+        "right": 0.8799288868904114,
+        "bottom": 0.8999719619750977
+      },
+      "page": 5,
+      "type": "chunkText"
+    },
+    "c0aebeaf-38fa-437b-814f-27390e60727d": {
+      "box": {
+        "left": 0.0830843448638916,
+        "top": 0.06378678977489471,
+        "right": 0.4589200019836426,
+        "bottom": 0.14897897839546204
+      },
+      "page": 6,
+      "type": "chunkText"
+    },
+    "bbb5531e-b8f3-4695-8747-86e55e5a687e": {
+      "box": {
+        "left": 0.08203786611557007,
+        "top": 0.18534207344055176,
+        "right": 0.8866493105888367,
+        "bottom": 0.26897674798965454
+      },
+      "page": 6,
+      "type": "chunkText"
+    },
+    "3546cbb8-38ae-41e2-9ea5-e6fe47c35817": {
+      "box": {
+        "left": 0.08345326781272888,
+        "top": 0.28740352392196655,
+        "right": 0.5870345830917358,
+        "bottom": 0.42961615324020386
+      },
+      "page": 6,
+      "type": "chunkText"
+    },
+    "0f46133b-b0f4-439e-af33-d484819f4b93": {
+      "box": {
+        "left": 0.08220650255680084,
+        "top": 0.4481008052825928,
+        "right": 0.33759570121765137,
+        "bottom": 0.6985800266265869
+      },
+      "page": 6,
+      "type": "chunkText"
+    },
+    "379c5a5c-105d-48fd-b750-bc786c42e157": {
+      "box": {
+        "left": 0.08402842283248901,
+        "top": 0.71500563621521,
+        "right": 0.8386585116386414,
+        "bottom": 0.7965431213378906
+      },
+      "page": 6,
+      "type": "chunkText"
+    },
+    "0f592a08-6377-4289-ba63-6997b28506ec": {
+      "box": {
+        "left": 0.08347147703170776,
+        "top": 0.8162163496017456,
+        "right": 0.9082355499267578,
+        "bottom": 0.9374125003814697
+      },
+      "page": 6,
+      "type": "chunkText"
+    },
+    "0543c811-943c-4fc5-b2ba-b8a1dd91cd73": {
+      "box": {
+        "left": 0.0829826146364212,
+        "top": 0.10008250921964645,
+        "right": 0.3704962730407715,
+        "bottom": 0.18513548374176025
+      },
+      "page": 7,
+      "type": "chunkText"
+    },
+    "56b17e74-6c20-4727-9339-7c23e1614744": {
+      "box": {
+        "left": 0.08237072825431824,
+        "top": 0.24039003252983093,
+        "right": 0.9102030992507935,
+        "bottom": 0.3756098449230194
+      },
+      "page": 7,
+      "type": "chunkText"
+    },
+    "a9c14483-ecff-4466-872c-57136422780d": {
+      "box": {
+        "left": 0.08236813545227051,
+        "top": 0.399486780166626,
+        "right": 0.9138506054878235,
+        "bottom": 0.9022455215454102
+      },
+      "page": 7,
+      "type": "chunkText"
+    },
+    "c46acb32-75b1-4e80-9c0e-c69d08c537be": {
+      "box": {
+        "left": 0.08324584364891052,
+        "top": 0.10420592129230499,
+        "right": 0.7447091341018677,
+        "bottom": 0.196226105093956
+      },
+      "page": 8,
+      "type": "chunkText"
+    },
+    "1b3790cd-b26c-4afc-970f-746f9be4bd1b": {
+      "box": {
+        "left": 0.08358365297317505,
+        "top": 0.23820078372955322,
+        "right": 0.7933833003044128,
+        "bottom": 0.293398916721344
+      },
+      "page": 8,
+      "type": "chunkText"
+    },
+    "8bec0a31-7e41-44db-957c-552b26e38dab": {
+      "box": {
+        "left": 0.07940220832824707,
+        "top": 0.3308641314506531,
+        "right": 0.3465573787689209,
+        "bottom": 0.6820910573005676
+      },
+      "page": 8,
+      "type": "chunkText"
+    },
+    "377a9cb5-37f9-46aa-95e1-af6cb476ea41": {
+      "box": {
+        "left": 0.36705446243286133,
+        "top": 0.33239585161209106,
+        "right": 0.6221240758895874,
+        "bottom": 0.6848728060722351
+      },
+      "page": 8,
+      "type": "chunkText"
+    },
+    "036f3255-8e61-4a2a-b35d-22d0f9a66060": {
+      "box": {
+        "left": 0.6496675610542297,
+        "top": 0.3324308395385742,
+        "right": 0.914384663105011,
+        "bottom": 0.720252513885498
+      },
+      "page": 8,
+      "type": "chunkText"
+    },
+    "9dd17a55-7139-417e-823a-00cd3af4056f": {
+      "box": {
+        "left": 0.08090135455131531,
+        "top": 0.7576481103897095,
+        "right": 0.9086766242980957,
+        "bottom": 0.9038400650024414
+      },
+      "page": 8,
+      "type": "chunkText"
+    },
+    "76bf29ec-f165-4991-9fb2-5a0493dafe92": {
+      "box": {
+        "left": 0.0840844213962555,
+        "top": 0.05780048668384552,
+        "right": 0.8989546298980713,
+        "bottom": 0.13035954535007477
+      },
+      "page": 9,
+      "type": "chunkText"
+    },
+    "425c4b11-5ca9-489c-9c9b-92b95ee2a704": {
+      "box": {
+        "left": 0.08251291513442993,
+        "top": 0.16874949634075165,
+        "right": 0.8874011039733887,
+        "bottom": 0.49039894342422485
+      },
+      "page": 9,
+      "type": "chunkText"
+    },
+    "16472cf0-9555-4529-ab06-1caae4451661": {
+      "box": {
+        "left": 0.08398789167404175,
+        "top": 0.5073384046554565,
+        "right": 0.4766004681587219,
+        "bottom": 0.5504628419876099
+      },
+      "page": 9,
+      "type": "chunkText"
+    },
+    "e0211ba9-ee95-4268-a39b-f8c812c18ba0": {
+      "box": {
+        "left": 0.08362013101577759,
+        "top": 0.5831836462020874,
+        "right": 0.48416149616241455,
+        "bottom": 0.7144380807876587
+      },
+      "page": 9,
+      "type": "chunkText"
+    },
+    "e7479f14-e8c9-44f8-be15-c60f81b6a413": {
+      "box": {
+        "left": 0.0830531120300293,
+        "top": 0.7756310701370239,
+        "right": 0.48777806758880615,
+        "bottom": 0.9450538158416748
+      },
+      "page": 9,
+      "type": "chunkText"
+    },
+    "027867e6-7afb-469f-948c-7b352919aaad": {
+      "box": {
+        "left": 0.5022704005241394,
+        "top": 0.579092264175415,
+        "right": 0.9031803011894226,
+        "bottom": 0.7502126693725586
+      },
+      "page": 9,
+      "type": "chunkText"
+    },
+    "918d6dc2-dcc9-4428-8dbd-04c30d9d7f05": {
+      "box": {
+        "left": 0.5019027590751648,
+        "top": 0.7768653631210327,
+        "right": 0.8889668583869934,
+        "bottom": 0.9122109413146973
+      },
+      "page": 9,
+      "type": "chunkText"
+    },
+    "fa32bd57-170c-4a67-b9c5-3758f21b4c8c": {
+      "box": {
+        "left": 0.08126014471054077,
+        "top": 0.13421425223350525,
+        "right": 0.8415348529815674,
+        "bottom": 0.23050743341445923
+      },
+      "page": 10,
+      "type": "chunkText"
+    },
+    "1bc0ca22-b3a4-4241-8248-e73047bb53ae": {
+      "box": {
+        "left": 0.08204415440559387,
+        "top": 0.27177709341049194,
+        "right": 0.8974575996398926,
+        "bottom": 0.4082013964653015
+      },
+      "page": 10,
+      "type": "chunkText"
+    },
+    "de5052bf-1b98-4591-9243-d210509b207e": {
+      "box": {
+        "left": 0.08204853534698486,
+        "top": 0.4321334660053253,
+        "right": 0.8527678847312927,
+        "bottom": 0.7522239685058594
+      },
+      "page": 10,
+      "type": "chunkText"
+    },
+    "3149a6ad-f520-4018-9958-15e202f26a33": {
+      "box": {
+        "left": 0.08337536454200745,
+        "top": 0.7764540314674377,
+        "right": 0.8576537370681763,
+        "bottom": 0.8669784665107727
+      },
+      "page": 10,
+      "type": "chunkText"
+    },
+    "3e81b93f-5963-4485-a822-62e02140c897": {
+      "box": {
+        "left": 0.00045471638441085815,
+        "top": -0.00018781423568725586,
+        "right": 0.24896582961082458,
+        "bottom": 0.9983912110328674
+      },
+      "page": 11,
+      "type": "chunkFigure"
+    },
+    "ebd73f70-264d-4ebf-bc9f-30e8f70652ba": {
+      "box": {
+        "left": 0.29553040862083435,
+        "top": 0.056652337312698364,
+        "right": 0.8481773138046265,
+        "bottom": 0.12814365327358246
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "3dae6ebb-fe92-4a11-8be3-443980add60e": {
+      "box": {
+        "left": 0.2957819402217865,
+        "top": 0.16193321347236633,
+        "right": 0.9359363317489624,
+        "bottom": 0.2716524004936218
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "d574bbef-659a-4885-b045-de593e31ca18": {
+      "box": {
+        "left": 0.296922892332077,
+        "top": 0.29149436950683594,
+        "right": 0.526652991771698,
+        "bottom": 0.3316580653190613
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "80acb0ef-7545-430d-b08c-dd9828a8eb71": {
+      "box": {
+        "left": 0.29894447326660156,
+        "top": 0.34728550910949707,
+        "right": 0.622026801109314,
+        "bottom": 0.5940186381340027
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "2606e714-2d45-4f12-9f72-0570deef645b": {
+      "box": {
+        "left": 0.6291409730911255,
+        "top": 0.3467090129852295,
+        "right": 0.9518131017684937,
+        "bottom": 0.594281017780304
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "f59cdf21-3d1c-421d-8374-5c9f2be320bf": {
+      "box": {
+        "left": 0.29950714111328125,
+        "top": 0.6047061681747437,
+        "right": 0.6215950846672058,
+        "bottom": 0.8158104419708252
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "8990aab4-8075-46c8-a5c7-0123b4eeba1b": {
+      "box": {
+        "left": 0.6285473108291626,
+        "top": 0.6035242676734924,
+        "right": 0.9517619609832764,
+        "bottom": 0.815844714641571
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "f4bd27a6-c183-4d8d-b18b-df3015cfdf1a": {
+      "box": {
+        "left": 0.29587522149086,
+        "top": 0.8320481777191162,
+        "right": 0.9435924291610718,
+        "bottom": 0.9434441328048706
+      },
+      "page": 11,
+      "type": "chunkText"
+    },
+    "1f3e5cc8-bfa5-44b2-b344-82160a026f78": {
+      "box": {
+        "left": 0.08380782604217529,
+        "top": 0.044237054884433746,
+        "right": 0.890511155128479,
+        "bottom": 0.10661790519952774
+      },
+      "page": 12,
+      "type": "chunkText"
+    },
+    "f17cfc81-bf06-468e-aab5-aac2510b4846": {
+      "box": {
+        "left": 0.08290451765060425,
+        "top": 0.1326756775379181,
+        "right": 0.8719181418418884,
+        "bottom": 0.1909160315990448
+      },
+      "page": 12,
+      "type": "chunkText"
+    },
+    "baf6b5f2-5449-4505-8245-beb8f14ce619": {
+      "box": {
+        "left": 0.0799015462398529,
+        "top": 0.1982404589653015,
+        "right": 0.8829512596130371,
+        "bottom": 0.8871613144874573
+      },
+      "page": 12,
+      "type": "chunkTable"
+    },
+    "12-1": {
+      "box": {
+        "left": 0.08832935370952039,
+        "top": 0.20717137742206793,
+        "right": 0.8805969474791304,
+        "bottom": 0.8711932733508831
+      },
+      "page": 12,
+      "type": "table"
+    },
+    "12-2": {
+      "box": {
+        "left": 0.08835727653606962,
+        "top": 0.20717137742206793,
+        "right": 0.16594646491815018,
+        "bottom": 0.3373353285470446
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-3": {
+      "box": {
+        "left": 0.16589144576062825,
+        "top": 0.2071816705526734,
+        "right": 0.8805373788837786,
+        "bottom": 0.33732835155257584
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-4": {
+      "box": {
+        "left": 0.08835030894545427,
+        "top": 0.33732835155257584,
+        "right": 0.16589144576062825,
+        "bottom": 0.47054904885526233
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-5": {
+      "box": {
+        "left": 0.1658351638941592,
+        "top": 0.33726404338016114,
+        "right": 0.8805521750609748,
+        "bottom": 0.47046194449246637
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-6": {
+      "box": {
+        "left": 0.08834316724021785,
+        "top": 0.47046194449246637,
+        "right": 0.1658351638941592,
+        "bottom": 0.6070916754833555
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-7": {
+      "box": {
+        "left": 0.1657774060757784,
+        "top": 0.4696584975494697,
+        "right": 0.8805675288641259,
+        "bottom": 0.6070868712019538
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-8": {
+      "box": {
+        "left": 0.08833616186321709,
+        "top": 0.6070868712019538,
+        "right": 0.1657774060757784,
+        "bottom": 0.7410278356212848
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-9": {
+      "box": {
+        "left": 0.16572078626775788,
+        "top": 0.6070425232113907,
+        "right": 0.880582493705157,
+        "bottom": 0.7410198579036217
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-a": {
+      "box": {
+        "left": 0.08832935370952039,
+        "top": 0.7410198579036217,
+        "right": 0.16572078626775788,
+        "bottom": 0.8711932733508833
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "12-b": {
+      "box": {
+        "left": 0.1656657936262574,
+        "top": 0.740946161547091,
+        "right": 0.8805969474791302,
+        "bottom": 0.871103815802238
+      },
+      "page": 12,
+      "type": "tableCell"
+    },
+    "7243a371-30fe-4c98-8807-032af7a6fb99": {
+      "box": {
+        "left": 0.0827154815196991,
+        "top": 0.8966112732887268,
+        "right": 0.8971899747848511,
+        "bottom": 0.9579717516899109
+      },
+      "page": 12,
+      "type": "chunkText"
+    },
+    "d5c55ef4-bcab-40dc-a632-70c5da95d08d": {
+      "box": {
+        "left": 0.08336958289146423,
+        "top": 0.06543382257223129,
+        "right": 0.7789621353149414,
+        "bottom": 0.15127220749855042
+      },
+      "page": 13,
+      "type": "chunkText"
+    },
+    "7b04a5e2-9863-4d26-97ae-d5b92e3c5aeb": {
+      "box": {
+        "left": 0.08211547136306763,
+        "top": 0.18967287242412567,
+        "right": 0.9139580130577087,
+        "bottom": 0.5110320448875427
+      },
+      "page": 13,
+      "type": "chunkText"
+    },
+    "ff712eae-a7f8-4949-a526-0ab667447f7d": {
+      "box": {
+        "left": 0.08424636721611023,
+        "top": 0.5315497517585754,
+        "right": 0.7532109022140503,
+        "bottom": 0.8346701264381409
+      },
+      "page": 13,
+      "type": "chunkText"
+    },
+    "8f0e6d31-32af-4c54-bcad-fa697c64c0e3": {
+      "box": {
+        "left": 0.08415570855140686,
+        "top": 0.8534591794013977,
+        "right": 0.8642938137054443,
+        "bottom": 0.936860978603363
+      },
+      "page": 13,
+      "type": "chunkText"
+    },
+    "f20f142c-0599-4995-a70c-8bf0d899ef52": {
+      "box": {
+        "left": 0.08322024345397949,
+        "top": 0.14123371243476868,
+        "right": 0.705303430557251,
+        "bottom": 0.23052987456321716
+      },
+      "page": 14,
+      "type": "chunkText"
+    },
+    "f0f138c2-39fd-4f1b-9170-3b58db8f7855": {
+      "box": {
+        "left": 0.07983860373497009,
+        "top": 0.27872374653816223,
+        "right": 0.9075099229812622,
+        "bottom": 0.744671106338501
+      },
+      "page": 14,
+      "type": "chunkText"
+    },
+    "ccf48934-20f4-48e5-8be8-d43402c32aae": {
+      "box": {
+        "left": 0.08105519413948059,
+        "top": 0.7615476846694946,
+        "right": 0.8854910135269165,
+        "bottom": 0.8626517057418823
+      },
+      "page": 14,
+      "type": "chunkText"
+    },
+    "31f62638-afc4-4a6e-802a-47ca83a97d29": {
+      "box": {
+        "left": 0.08385246992111206,
+        "top": 0.10557917505502701,
+        "right": 0.670244038105011,
+        "bottom": 0.1992332935333252
+      },
+      "page": 15,
+      "type": "chunkText"
+    },
+    "e3eb43ea-7e83-4485-9710-4d3c6ed5d16a": {
+      "box": {
+        "left": 0.0837283730506897,
+        "top": 0.24017155170440674,
+        "right": 0.8416053056716919,
+        "bottom": 0.29230576753616333
+      },
+      "page": 15,
+      "type": "chunkText"
+    },
+    "18e55cc2-fae6-4a5b-866d-0ceef234a6d5": {
+      "box": {
+        "left": 0.08279062807559967,
+        "top": 0.33176782727241516,
+        "right": 0.4844408631324768,
+        "bottom": 0.5441399812698364
+      },
+      "page": 15,
+      "type": "chunkText"
+    },
+    "e6529a12-403c-41c0-8e9a-cf067aeb324f": {
+      "box": {
+        "left": 0.5013399124145508,
+        "top": 0.3333090543746948,
+        "right": 0.8988516330718994,
+        "bottom": 0.5849106311798096
+      },
+      "page": 15,
+      "type": "chunkText"
+    },
+    "bcbf2db3-2b27-4042-97c9-2976e41e4f6e": {
+      "box": {
+        "left": 0.08287107944488525,
+        "top": 0.614780843257904,
+        "right": 0.4567717909812927,
+        "bottom": 0.8300836682319641
+      },
+      "page": 15,
+      "type": "chunkText"
+    },
+    "ae64b7b7-25d3-4392-94d2-51a2f448c963": {
+      "box": {
+        "left": 0.5007063150405884,
+        "top": 0.6175198554992676,
+        "right": 0.906865119934082,
+        "bottom": 0.8294119834899902
+      },
+      "page": 15,
+      "type": "chunkText"
+    },
+    "050ccfb6-b2aa-427c-93b4-bd3f44ba5c91": {
+      "box": {
+        "left": 0.0846761167049408,
+        "top": 0.8480662107467651,
+        "right": 0.86612868309021,
+        "bottom": 0.8999512195587158
+      },
+      "page": 15,
+      "type": "chunkText"
+    },
+    "22577e9a-7672-409f-bf01-eb500a8966b9": {
+      "box": {
+        "left": 0.082756906747818,
+        "top": 0.051538072526454926,
+        "right": 0.7819802761077881,
+        "bottom": 0.13010883331298828
+      },
+      "page": 16,
+      "type": "chunkText"
+    },
+    "497e034f-e33e-4446-ae5d-e387763c0b6b": {
+      "box": {
+        "left": 0.08420270681381226,
+        "top": 0.163428395986557,
+        "right": 0.663571298122406,
+        "bottom": 0.20542722940444946
+      },
+      "page": 16,
+      "type": "chunkText"
+    },
+    "a852e26c-a1e5-4976-b4af-da9da5723f38": {
+      "box": {
+        "left": 0.08142562210559845,
+        "top": 0.2387186586856842,
+        "right": 0.3474404811859131,
+        "bottom": 0.5022217035293579
+      },
+      "page": 16,
+      "type": "chunkText"
+    },
+    "b892104f-7f7e-4581-a033-938080e3190e": {
+      "box": {
+        "left": 0.368589848279953,
+        "top": 0.23949402570724487,
+        "right": 0.6212018728256226,
+        "bottom": 0.4705198407173157
+      },
+      "page": 16,
+      "type": "chunkText"
+    },
+    "af4b19fb-4dfe-428c-9598-28753f0a73b8": {
+      "box": {
+        "left": 0.6541392207145691,
+        "top": 0.23867250978946686,
+        "right": 0.9126899838447571,
+        "bottom": 0.5360888242721558
+      },
+      "page": 16,
+      "type": "chunkText"
+    },
+    "73bb31d7-1858-48a6-8393-0db1e057b5c1": {
+      "box": {
+        "left": 0.08155497908592224,
+        "top": 0.5693098306655884,
+        "right": 0.9146542549133301,
+        "bottom": 0.8578082323074341
+      },
+      "page": 16,
+      "type": "chunkText"
+    },
+    "234244b9-b1b6-4139-9f35-5cc08da3100f": {
+      "box": {
+        "left": 0.0824841856956482,
+        "top": 0.8727452158927917,
+        "right": 0.8667562007904053,
+        "bottom": 0.9471350312232971
+      },
+      "page": 16,
+      "type": "chunkText"
+    },
+    "68551efc-5e4c-4743-a803-2eb88377f9ad": {
+      "box": {
+        "left": 0.08300918340682983,
+        "top": 0.05236099287867546,
+        "right": 0.6370145678520203,
+        "bottom": 0.11957336962223053
+      },
+      "page": 17,
+      "type": "chunkText"
+    },
+    "197f12bd-b5ad-4f6a-94dc-733817202e01": {
+      "box": {
+        "left": 0.0822572112083435,
+        "top": 0.15728530287742615,
+        "right": 0.880000650882721,
+        "bottom": 0.4043211042881012
+      },
+      "page": 17,
+      "type": "chunkText"
+    },
+    "5ec98507-e35a-434b-818b-af37f3eccfbf": {
+      "box": {
+        "left": 0.08320081233978271,
+        "top": 0.41966164112091064,
+        "right": 0.49693745374679565,
+        "bottom": 0.6109225749969482
+      },
+      "page": 17,
+      "type": "chunkText"
+    },
+    "ce02ff8c-4b08-4014-980e-70aaac719224": {
+      "box": {
+        "left": 0.08473880589008331,
+        "top": 0.672927737236023,
+        "right": 0.48568761348724365,
+        "bottom": 0.827399492263794
+      },
+      "page": 17,
+      "type": "chunkText"
+    },
+    "8950dd44-0de1-462d-9894-a0b8bd4fcf2f": {
+      "box": {
+        "left": 0.5050623416900635,
+        "top": 0.4862498641014099,
+        "right": 0.8956211805343628,
+        "bottom": 0.6449745297431946
+      },
+      "page": 17,
+      "type": "chunkText"
+    },
+    "38811785-b91e-4834-8e4a-bceef2125c1d": {
+      "box": {
+        "left": 0.5033356547355652,
+        "top": 0.674253523349762,
+        "right": 0.8599693179130554,
+        "bottom": 0.8274831175804138
+      },
+      "page": 17,
+      "type": "chunkText"
+    },
+    "f17dbc36-28e6-4b08-bbd8-81a0a9ae6d8d": {
+      "box": {
+        "left": 0.08295774459838867,
+        "top": 0.8445394039154053,
+        "right": 0.8859877586364746,
+        "bottom": 0.9457169771194458
+      },
+      "page": 17,
+      "type": "chunkText"
+    }
+  },
+  "metadata": {
+    "filename": "Adopting-Wind-Assisted-Ship-Propulsion-Technologies-as-Fleet-Retrofit.pdf",
+    "org_id": null,
+    "page_count": 18,
+    "duration_ms": 9655,
+    "credit_usage": 54,
+    "job_id": "co6kskxy4nde8fjhtu6wv0tcq",
+    "version": "dpt-2-20250919"
+  }
+}

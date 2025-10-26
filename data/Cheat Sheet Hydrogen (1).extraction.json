@@ -1,0 +1,653 @@
+{
+  "markdown": "<a id='e0eeee0e-36d1-4252-895c-5517d47eb2e5'></a>\n\n***Created by Eliseo Curcio. Follow me on LinkedIn***\n\n<a id='1482e5d8-0f43-43d7-9ad3-849eb4c59a09'></a>\n\n# Types Of Hydrogen\n## Based On Production Pathways\n\n→ **Green Hydrogen**: CI: 0 KgCo2e/KgH2\nProduced via electrolysis using renewable energy\n(solar, wind, etc.). Zero-carbon process...\nAdd a little bit of body text\n\n→ **Blue Hydrogen**: CI: 1.5-8 KgCo2e/KgH2\nProduced via natural gas reforming with carbon\ncapture and storage (CCS) to reduce emissions.\nAdd a little bit of body text\n\n→ **Grey Hydrogen**: CI: 23-25 KgCo2e/KgH2\nProduced via natural gas reforming without\nCCS, emitting CO2.\nAdd a little bit of body text\n\n→ **Turquoise Hydrogen**: CI: 2-14 KgCo2e/KgH2\nProduced via methane pyrolysis, yielding solid\ncarbon as a byproduct.\nAdd a little bit of body text\n\n→ **Pink Hydrogen**: CI: 0-1 KgCo2e/KgH2\nProduced via electrolysis powered by nuclear\nenergy.\nAdd a little bit of body text\n\n→ **Brown Hydrogen**: CI: 16-20 KgCo2e/KgH2\nProduced via natural gas reforming with carbon\ncapture and storage (CCS) to reduce emissions.\nAdd a little bit of body text\n\n→ **Gold Hydrogen**: CI: 1-3 KgCo2e/KgH2\nNaturally occurring hydrogen found underground is\nformed through geological processes like radiolysis and\nserpentinization.\n\n<a id='0995038e-b6cb-4157-a1fd-32e81e48c262'></a>\n\n<::An illustration of laboratory equipment on a blue shelf. From left to right, there is a light blue Erlenmeyer flask, a dark blue microscope, a clear flask with red liquid, a test tube rack holding three test tubes (one with green liquid, one empty, one with red liquid), and a green book.: figure::>\n\n<a id='8362beb0-73ff-4739-b48e-35f745f7658a'></a>\n\nHydrogen Production\nTechnologies\n\n<a id='f1fb343e-410a-4b10-a80e-18d1c8c35751'></a>\n\nPEM (Proton Exchange Membrane):\nHigh efficiency, expensive. TRL: 8 ARL:7 Cost: $5-$6/KgH2\nAlkaline:\nLower cost, established technology. TRL: 9 ARL:8 Cost: $5-$10/KgH2\n\n<a id='8d5ddb38-2f1a-4ba7-9108-5b9b41d3e822'></a>\n\nSOEC (Solid Oxide Electrolysis Cell):\nHigh-temperature process, suitable for integration with\nwaste heat. TRL: 6 ARL: 5 Cost: $4-$8/KgH2\n\n<a id='1f7caf89-9eb3-4940-bbd2-508900398a90'></a>\n\nSteam Methane Reforming (SMR):\nConverts methane and steam to hydrogen; common but\nemits CO2. TRL: 9 ARL: 8 Cost: $2-$3/KgH2\n\n<a id='988f0187-7741-4119-a09c-ef7c4ceaf1e2'></a>\n\n## Autothermal Reforming (ATR):\nSimilar to SMR but uses oxygen and allows easier integration with CCS. TRL: 8 ARL: 7 Cost: $1-$2/KgH2\n\n<a id='169d0fca-0f16-47cf-8b8b-01d24e080643'></a>\n\nMethane Pyrolysis:\nDecomposes methane into hydrogen and solid carbon. TRL: 6 ARL: 4 Cost: $1-$2/KgH2\n\n<a id='11ac99ec-c242-423c-ad55-4e610ff8109c'></a>\n\n**Biomass Gasification:**\nRenewable but feedstock dependent. TRL: 6 ARL: 5\n**Cost:** $1-$2/KgH2\n\n<a id='7e54651f-7f3e-4d4d-81a9-37e12b569f4b'></a>\n\n**Photocatalytic Splitting:**\nEarly Stage but promising for green hydrogen\nTRL: 3 ARL:3 Cost: $10-$15/KgH2\n\n<a id='5e9b5819-cbe4-4981-9d2c-d5d5829d2167'></a>\n\nNuclear-Thermal Hydrogen Production\nUses heat from nuclear reactors to drive water-\nsplitting reactions TRL: 6 ARL:5 Cost: $2-$4/KgH2\n\n<a id='65f1c1e9-0ad4-4bc6-ad72-5eee4a4133ba'></a>\n\n# Storage Methods\n\n**Compressed Gas:**\nStored in high-pressure tanks\n(350–700 bar). Cost $1M-$40M\n\n**Liquid Hydrogen:**\nCooled to -253°C; dense but energy-\nintensive. Cost $50M-$80M\n\n**Metal Hydrides:**\nAbsorbed and released from\nmetal alloys. Cost $10M-$90M\n\n**Ammonia (NH3):**\nHydrogen carrier; easier storage\nand transport. Cost $30-$80M\n\n**LOHCs**\n(Liquid Organic Hydrogen Carriers):\nHydrogen bound to liquid\nmolecules for safer handling\nCost $5M-$50M\n\n<a id='3c055a95-b46c-4109-a71e-c2e03ee4a075'></a>\n\nApplications\n\n<a id='09007b55-d69f-470f-840c-354c36ac2623'></a>\n\nEnergy Storage:\nStores excess renewable energy\nfor grid balancing.\n\n<a id='c43357d4-e505-4941-8c54-d6a98c5147ed'></a>\n\nFuel Cells:\nConverts hydrogen to electricity\n(e.g., PEMFC, SOFC).\n\n<a id='a1a45da8-e13c-40f4-a921-a89c41823866'></a>\n\nTransport: Hydrogen cars\n(FCEVs):\nToyota Mirai, Hyundai Nexo.\nTrucks, buses, trains, and aviation\n(hydrogen planes).\n\n<a id='9b0d3050-7843-4ed0-9daa-b7b9a7ec67fc'></a>\n\nIndustrial Uses:\nSteel production (direct reduction of\niron ore with hydrogen). Chemical\nmanufacturing (ammonia,\nmethanol).\n\n<a id='d99bab4c-8f99-452a-a9e2-1473e57a3db7'></a>\n\nPower Generation:\nHydrogen turbines in power plants.\nBlending hydrogen with natural gas.\n\n<a id='9b2942b7-0707-461b-9892-de28a63c9135'></a>\n\n# Advantages\n* Zero emissions when used in fuel cells.\n* High energy density (3x gasoline by mass).\n* Potential to decarbonize hard-to-abate sectors.\n\n# Challenges\n## Cost\nGreen hydrogen costs $3-7/kg; needs to drop below $2/kg for competitiveness.\n\n## Infrastructure\nLimited refueling stations, transport, and storage facilities.\n\n## Energy Losses:\nConversion processes (e.g., electrolysis, compression) reduce efficiency.\n\n## Material Durability:\nHydrogen embrittlement in pipelines and storage tanks.\n\n<a id='a4b5301f-bdea-419a-8b84-04b8b1ac9341'></a>\n\n# Transportation Options\n\n## Pipelines:\nExisting natural gas pipelines can be retrofitted. Cost: **$50M-$500M**\n\n## Cryogenic Tanks:\nFor liquid hydrogen transport. Cost:**$10M-$150M**\n\n## Ammonia Shipping:\nAmmonia as a carrier for hydrogen\nexport. Cost: **$50M-$150M**\n\n<a id='f9842230-3817-478d-89c7-4f01b91bd48a'></a>\n\nKey Policies and\nIncentives\n\n**Inflation Reduction Act (IRA):**\n* Offers tax credits of up to $3/kg H₂ for green hydrogen production, depending on the carbon intensity (CI) of the hydrogen produced.\n* Additional funding supports hydrogen hubs and infrastructure development.\n* Focused on scaling green hydrogen and deploying CCS for blue hydrogen.\n\n**European Hydrogen Strategy**\n* Targets the production of 10 million tons of renewable hydrogen per year by 2030.\n* Provides subsidies for electrolysis projects and funding for hydrogen infrastructure (e.g., refueling stations and hydrogen pipelines).\n* Strong emphasis on cross-border cooperation and a hydrogen backbone for Europe.\n\n**Japan's Hydrogen Roadmap:**\n* Japan plans to import hydrogen as ammonia from countries like Australia to meet domestic energy needs.\n* Targets 20% hydrogen blending in gas turbines by 2030 and substantial expansion of hydrogen refueling stations.\n\n<a id='b29de4bf-7d76-473d-af51-4b8043f72496'></a>\n\nMetrics to Watch\n\nLevelized Cost of\nHydrogen (LCOE) and\nCAPEX/OPEX:\n\n<a id='71e2b257-e859-40e4-8374-86e6179650cf'></a>\n\n<::LCOe-fuel Sensitivity to Capex and LCOE Changes\n: chart\n: This contour plot shows the LCOe-fuel sensitivity to changes in Capex and LCOE. The x-axis represents \"Capex Change (%)\" ranging from -20 to 20. The y-axis represents \"LCOE Change (%)\" ranging from -20 to 20. The color gradient indicates the \"LCOe-fuel (€/l)\" values, with a legend on the right side ranging from 2.56 (dark red) to 3.68 (dark blue). The plot shows diagonal bands of color, indicating how LCOe-fuel changes with varying Capex and LCOE percentages.::>\n\n<a id='36e01278-c175-4f2a-b724-9c2bf4a9ade2'></a>\n\nProduction Cost:\n* Green: $3-$7/Kg H2\n* Blue: $2-$3/Kg H2\n* Grey: $1-$2/Kg H2\n* Turquoise: $3-$5/Kg H2\n* Pink: $2-$5/Kg H2\n* Brown: $1-$3/Kg H2\n* Gold: $1-$5/Kg H2",
+  "chunks": [
+    {
+      "markdown": "<a id='e0eeee0e-36d1-4252-895c-5517d47eb2e5'></a>\n\n***Created by Eliseo Curcio. Follow me on LinkedIn***",
+      "type": "text",
+      "id": "e0eeee0e-36d1-4252-895c-5517d47eb2e5",
+      "grounding": {
+        "box": {
+          "left": 0.32875365018844604,
+          "top": 0.0026394184678792953,
+          "right": 0.6331921815872192,
+          "bottom": 0.03321618586778641
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='1482e5d8-0f43-43d7-9ad3-849eb4c59a09'></a>\n\n# Types Of Hydrogen\n## Based On Production Pathways\n\n→ **Green Hydrogen**: CI: 0 KgCo2e/KgH2\nProduced via electrolysis using renewable energy\n(solar, wind, etc.). Zero-carbon process...\nAdd a little bit of body text\n\n→ **Blue Hydrogen**: CI: 1.5-8 KgCo2e/KgH2\nProduced via natural gas reforming with carbon\ncapture and storage (CCS) to reduce emissions.\nAdd a little bit of body text\n\n→ **Grey Hydrogen**: CI: 23-25 KgCo2e/KgH2\nProduced via natural gas reforming without\nCCS, emitting CO2.\nAdd a little bit of body text\n\n→ **Turquoise Hydrogen**: CI: 2-14 KgCo2e/KgH2\nProduced via methane pyrolysis, yielding solid\ncarbon as a byproduct.\nAdd a little bit of body text\n\n→ **Pink Hydrogen**: CI: 0-1 KgCo2e/KgH2\nProduced via electrolysis powered by nuclear\nenergy.\nAdd a little bit of body text\n\n→ **Brown Hydrogen**: CI: 16-20 KgCo2e/KgH2\nProduced via natural gas reforming with carbon\ncapture and storage (CCS) to reduce emissions.\nAdd a little bit of body text\n\n→ **Gold Hydrogen**: CI: 1-3 KgCo2e/KgH2\nNaturally occurring hydrogen found underground is\nformed through geological processes like radiolysis and\nserpentinization.",
+      "type": "text",
+      "id": "1482e5d8-0f43-43d7-9ad3-849eb4c59a09",
+      "grounding": {
+        "box": {
+          "left": 0.004304058849811554,
+          "top": 0.031345248222351074,
+          "right": 0.2293701171875,
+          "bottom": 0.8509541749954224
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='0995038e-b6cb-4157-a1fd-32e81e48c262'></a>\n\n<::An illustration of laboratory equipment on a blue shelf. From left to right, there is a light blue Erlenmeyer flask, a dark blue microscope, a clear flask with red liquid, a test tube rack holding three test tubes (one with green liquid, one empty, one with red liquid), and a green book.: figure::>",
+      "type": "figure",
+      "id": "0995038e-b6cb-4157-a1fd-32e81e48c262",
+      "grounding": {
+        "box": {
+          "left": 0.0008498728275299072,
+          "top": 0.8777559995651245,
+          "right": 0.2279018610715866,
+          "bottom": 0.9975742101669312
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='8362beb0-73ff-4739-b48e-35f745f7658a'></a>\n\nHydrogen Production\nTechnologies",
+      "type": "text",
+      "id": "8362beb0-73ff-4739-b48e-35f745f7658a",
+      "grounding": {
+        "box": {
+          "left": 0.24176569283008575,
+          "top": 0.03525766357779503,
+          "right": 0.4355927109718323,
+          "bottom": 0.11048871278762817
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='f1fb343e-410a-4b10-a80e-18d1c8c35751'></a>\n\nPEM (Proton Exchange Membrane):\nHigh efficiency, expensive. TRL: 8 ARL:7 Cost: $5-$6/KgH2\nAlkaline:\nLower cost, established technology. TRL: 9 ARL:8 Cost: $5-$10/KgH2",
+      "type": "text",
+      "id": "f1fb343e-410a-4b10-a80e-18d1c8c35751",
+      "grounding": {
+        "box": {
+          "left": 0.23264256119728088,
+          "top": 0.11286703497171402,
+          "right": 0.4433300793170929,
+          "bottom": 0.2892135977745056
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='8d5ddb38-2f1a-4ba7-9108-5b9b41d3e822'></a>\n\nSOEC (Solid Oxide Electrolysis Cell):\nHigh-temperature process, suitable for integration with\nwaste heat. TRL: 6 ARL: 5 Cost: $4-$8/KgH2",
+      "type": "text",
+      "id": "8d5ddb38-2f1a-4ba7-9108-5b9b41d3e822",
+      "grounding": {
+        "box": {
+          "left": 0.23145374655723572,
+          "top": 0.3026629388332367,
+          "right": 0.4400372803211212,
+          "bottom": 0.3783799111843109
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='1f7caf89-9eb3-4940-bbd2-508900398a90'></a>\n\nSteam Methane Reforming (SMR):\nConverts methane and steam to hydrogen; common but\nemits CO2. TRL: 9 ARL: 8 Cost: $2-$3/KgH2",
+      "type": "text",
+      "id": "1f7caf89-9eb3-4940-bbd2-508900398a90",
+      "grounding": {
+        "box": {
+          "left": 0.23191633820533752,
+          "top": 0.39296066761016846,
+          "right": 0.4411015808582306,
+          "bottom": 0.4679456949234009
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='988f0187-7741-4119-a09c-ef7c4ceaf1e2'></a>\n\n## Autothermal Reforming (ATR):\nSimilar to SMR but uses oxygen and allows easier integration with CCS. TRL: 8 ARL: 7 Cost: $1-$2/KgH2",
+      "type": "text",
+      "id": "988f0187-7741-4119-a09c-ef7c4ceaf1e2",
+      "grounding": {
+        "box": {
+          "left": 0.23144212365150452,
+          "top": 0.48306185007095337,
+          "right": 0.4360524117946625,
+          "bottom": 0.5556555390357971
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='169d0fca-0f16-47cf-8b8b-01d24e080643'></a>\n\nMethane Pyrolysis:\nDecomposes methane into hydrogen and solid carbon. TRL: 6 ARL: 4 Cost: $1-$2/KgH2",
+      "type": "text",
+      "id": "169d0fca-0f16-47cf-8b8b-01d24e080643",
+      "grounding": {
+        "box": {
+          "left": 0.2323014736175537,
+          "top": 0.5707725286483765,
+          "right": 0.4109484553337097,
+          "bottom": 0.6442111730575562
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='11ac99ec-c242-423c-ad55-4e610ff8109c'></a>\n\n**Biomass Gasification:**\nRenewable but feedstock dependent. TRL: 6 ARL: 5\n**Cost:** $1-$2/KgH2",
+      "type": "text",
+      "id": "11ac99ec-c242-423c-ad55-4e610ff8109c",
+      "grounding": {
+        "box": {
+          "left": 0.23235714435577393,
+          "top": 0.659389317035675,
+          "right": 0.43101269006729126,
+          "bottom": 0.733371913433075
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='7e54651f-7f3e-4d4d-81a9-37e12b569f4b'></a>\n\n**Photocatalytic Splitting:**\nEarly Stage but promising for green hydrogen\nTRL: 3 ARL:3 Cost: $10-$15/KgH2",
+      "type": "text",
+      "id": "7e54651f-7f3e-4d4d-81a9-37e12b569f4b",
+      "grounding": {
+        "box": {
+          "left": 0.2322775423526764,
+          "top": 0.75533527135849,
+          "right": 0.4216947853565216,
+          "bottom": 0.8298822045326233
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='5e9b5819-cbe4-4981-9d2c-d5d5829d2167'></a>\n\nNuclear-Thermal Hydrogen Production\nUses heat from nuclear reactors to drive water-\nsplitting reactions TRL: 6 ARL:5 Cost: $2-$4/KgH2",
+      "type": "text",
+      "id": "5e9b5819-cbe4-4981-9d2c-d5d5829d2167",
+      "grounding": {
+        "box": {
+          "left": 0.23306989669799805,
+          "top": 0.8508530855178833,
+          "right": 0.4477314352989197,
+          "bottom": 0.927943229675293
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='65f1c1e9-0ad4-4bc6-ad72-5eee4a4133ba'></a>\n\n# Storage Methods\n\n**Compressed Gas:**\nStored in high-pressure tanks\n(350–700 bar). Cost $1M-$40M\n\n**Liquid Hydrogen:**\nCooled to -253°C; dense but energy-\nintensive. Cost $50M-$80M\n\n**Metal Hydrides:**\nAbsorbed and released from\nmetal alloys. Cost $10M-$90M\n\n**Ammonia (NH3):**\nHydrogen carrier; easier storage\nand transport. Cost $30-$80M\n\n**LOHCs**\n(Liquid Organic Hydrogen Carriers):\nHydrogen bound to liquid\nmolecules for safer handling\nCost $5M-$50M",
+      "type": "text",
+      "id": "65f1c1e9-0ad4-4bc6-ad72-5eee4a4133ba",
+      "grounding": {
+        "box": {
+          "left": 0.4524258077144623,
+          "top": 0.03597727417945862,
+          "right": 0.592118501663208,
+          "bottom": 0.45355021953582764
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='3c055a95-b46c-4109-a71e-c2e03ee4a075'></a>\n\nApplications",
+      "type": "text",
+      "id": "3c055a95-b46c-4109-a71e-c2e03ee4a075",
+      "grounding": {
+        "box": {
+          "left": 0.46186667680740356,
+          "top": 0.472265362739563,
+          "right": 0.5600565075874329,
+          "bottom": 0.5146470069885254
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='09007b55-d69f-470f-840c-354c36ac2623'></a>\n\nEnergy Storage:\nStores excess renewable energy\nfor grid balancing.",
+      "type": "text",
+      "id": "09007b55-d69f-470f-840c-354c36ac2623",
+      "grounding": {
+        "box": {
+          "left": 0.46041396260261536,
+          "top": 0.5455262064933777,
+          "right": 0.5758202075958252,
+          "bottom": 0.6092947125434875
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='c43357d4-e505-4941-8c54-d6a98c5147ed'></a>\n\nFuel Cells:\nConverts hydrogen to electricity\n(e.g., PEMFC, SOFC).",
+      "type": "text",
+      "id": "c43357d4-e505-4941-8c54-d6a98c5147ed",
+      "grounding": {
+        "box": {
+          "left": 0.46012869477272034,
+          "top": 0.6198233366012573,
+          "right": 0.5738205909729004,
+          "bottom": 0.6862955093383789
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='a1a45da8-e13c-40f4-a921-a89c41823866'></a>\n\nTransport: Hydrogen cars\n(FCEVs):\nToyota Mirai, Hyundai Nexo.\nTrucks, buses, trains, and aviation\n(hydrogen planes).",
+      "type": "text",
+      "id": "a1a45da8-e13c-40f4-a921-a89c41823866",
+      "grounding": {
+        "box": {
+          "left": 0.4611513912677765,
+          "top": 0.6925056576728821,
+          "right": 0.5840116143226624,
+          "bottom": 0.7892197966575623
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='9b0d3050-7843-4ed0-9daa-b7b9a7ec67fc'></a>\n\nIndustrial Uses:\nSteel production (direct reduction of\niron ore with hydrogen). Chemical\nmanufacturing (ammonia,\nmethanol).",
+      "type": "text",
+      "id": "9b0d3050-7843-4ed0-9daa-b7b9a7ec67fc",
+      "grounding": {
+        "box": {
+          "left": 0.4605262875556946,
+          "top": 0.8030967712402344,
+          "right": 0.5861592888832092,
+          "bottom": 0.896638035774231
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='d99bab4c-8f99-452a-a9e2-1473e57a3db7'></a>\n\nPower Generation:\nHydrogen turbines in power plants.\nBlending hydrogen with natural gas.",
+      "type": "text",
+      "id": "d99bab4c-8f99-452a-a9e2-1473e57a3db7",
+      "grounding": {
+        "box": {
+          "left": 0.460337370634079,
+          "top": 0.9100469350814819,
+          "right": 0.5860419869422913,
+          "bottom": 0.9728748798370361
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='9b2942b7-0707-461b-9892-de28a63c9135'></a>\n\n# Advantages\n* Zero emissions when used in fuel cells.\n* High energy density (3x gasoline by mass).\n* Potential to decarbonize hard-to-abate sectors.\n\n# Challenges\n## Cost\nGreen hydrogen costs $3-7/kg; needs to drop below $2/kg for competitiveness.\n\n## Infrastructure\nLimited refueling stations, transport, and storage facilities.\n\n## Energy Losses:\nConversion processes (e.g., electrolysis, compression) reduce efficiency.\n\n## Material Durability:\nHydrogen embrittlement in pipelines and storage tanks.",
+      "type": "text",
+      "id": "9b2942b7-0707-461b-9892-de28a63c9135",
+      "grounding": {
+        "box": {
+          "left": 0.5954926013946533,
+          "top": 0.03659060597419739,
+          "right": 0.8435045480728149,
+          "bottom": 0.5380133390426636
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='a4b5301f-bdea-419a-8b84-04b8b1ac9341'></a>\n\n# Transportation Options\n\n## Pipelines:\nExisting natural gas pipelines can be retrofitted. Cost: **$50M-$500M**\n\n## Cryogenic Tanks:\nFor liquid hydrogen transport. Cost:**$10M-$150M**\n\n## Ammonia Shipping:\nAmmonia as a carrier for hydrogen\nexport. Cost: **$50M-$150M**",
+      "type": "text",
+      "id": "a4b5301f-bdea-419a-8b84-04b8b1ac9341",
+      "grounding": {
+        "box": {
+          "left": 0.6010975241661072,
+          "top": 0.5660794377326965,
+          "right": 0.8423735499382019,
+          "bottom": 0.9907624125480652
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='f9842230-3817-478d-89c7-4f01b91bd48a'></a>\n\nKey Policies and\nIncentives\n\n**Inflation Reduction Act (IRA):**\n* Offers tax credits of up to $3/kg H₂ for green hydrogen production, depending on the carbon intensity (CI) of the hydrogen produced.\n* Additional funding supports hydrogen hubs and infrastructure development.\n* Focused on scaling green hydrogen and deploying CCS for blue hydrogen.\n\n**European Hydrogen Strategy**\n* Targets the production of 10 million tons of renewable hydrogen per year by 2030.\n* Provides subsidies for electrolysis projects and funding for hydrogen infrastructure (e.g., refueling stations and hydrogen pipelines).\n* Strong emphasis on cross-border cooperation and a hydrogen backbone for Europe.\n\n**Japan's Hydrogen Roadmap:**\n* Japan plans to import hydrogen as ammonia from countries like Australia to meet domestic energy needs.\n* Targets 20% hydrogen blending in gas turbines by 2030 and substantial expansion of hydrogen refueling stations.",
+      "type": "text",
+      "id": "f9842230-3817-478d-89c7-4f01b91bd48a",
+      "grounding": {
+        "box": {
+          "left": 0.8449757099151611,
+          "top": 0.035255178809165955,
+          "right": 0.9984728097915649,
+          "bottom": 0.3947717547416687
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='b29de4bf-7d76-473d-af51-4b8043f72496'></a>\n\nMetrics to Watch\n\nLevelized Cost of\nHydrogen (LCOE) and\nCAPEX/OPEX:",
+      "type": "text",
+      "id": "b29de4bf-7d76-473d-af51-4b8043f72496",
+      "grounding": {
+        "box": {
+          "left": 0.8473836183547974,
+          "top": 0.40258780121803284,
+          "right": 0.9956238269805908,
+          "bottom": 0.5412857532501221
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='71e2b257-e859-40e4-8374-86e6179650cf'></a>\n\n<::LCOe-fuel Sensitivity to Capex and LCOE Changes\n: chart\n: This contour plot shows the LCOe-fuel sensitivity to changes in Capex and LCOE. The x-axis represents \"Capex Change (%)\" ranging from -20 to 20. The y-axis represents \"LCOE Change (%)\" ranging from -20 to 20. The color gradient indicates the \"LCOe-fuel (€/l)\" values, with a legend on the right side ranging from 2.56 (dark red) to 3.68 (dark blue). The plot shows diagonal bands of color, indicating how LCOe-fuel changes with varying Capex and LCOE percentages.::>",
+      "type": "figure",
+      "id": "71e2b257-e859-40e4-8374-86e6179650cf",
+      "grounding": {
+        "box": {
+          "left": 0.8481009006500244,
+          "top": 0.5455266833305359,
+          "right": 0.9933855533599854,
+          "bottom": 0.7554619908332825
+        },
+        "page": 0
+      }
+    },
+    {
+      "markdown": "<a id='36e01278-c175-4f2a-b724-9c2bf4a9ade2'></a>\n\nProduction Cost:\n* Green: $3-$7/Kg H2\n* Blue: $2-$3/Kg H2\n* Grey: $1-$2/Kg H2\n* Turquoise: $3-$5/Kg H2\n* Pink: $2-$5/Kg H2\n* Brown: $1-$3/Kg H2\n* Gold: $1-$5/Kg H2",
+      "type": "text",
+      "id": "36e01278-c175-4f2a-b724-9c2bf4a9ade2",
+      "grounding": {
+        "box": {
+          "left": 0.8509407639503479,
+          "top": 0.7630089521408081,
+          "right": 0.9983003735542297,
+          "bottom": 0.9993351697921753
+        },
+        "page": 0
+      }
+    }
+  ],
+  "splits": [
+    {
+      "class": "page",
+      "identifier": "page_0",
+      "pages": [
+        0
+      ],
+      "markdown": "<a id='e0eeee0e-36d1-4252-895c-5517d47eb2e5'></a>\n\n***Created by Eliseo Curcio. Follow me on LinkedIn***\n\n<a id='1482e5d8-0f43-43d7-9ad3-849eb4c59a09'></a>\n\n# Types Of Hydrogen\n## Based On Production Pathways\n\n→ **Green Hydrogen**: CI: 0 KgCo2e/KgH2\nProduced via electrolysis using renewable energy\n(solar, wind, etc.). Zero-carbon process...\nAdd a little bit of body text\n\n→ **Blue Hydrogen**: CI: 1.5-8 KgCo2e/KgH2\nProduced via natural gas reforming with carbon\ncapture and storage (CCS) to reduce emissions.\nAdd a little bit of body text\n\n→ **Grey Hydrogen**: CI: 23-25 KgCo2e/KgH2\nProduced via natural gas reforming without\nCCS, emitting CO2.\nAdd a little bit of body text\n\n→ **Turquoise Hydrogen**: CI: 2-14 KgCo2e/KgH2\nProduced via methane pyrolysis, yielding solid\ncarbon as a byproduct.\nAdd a little bit of body text\n\n→ **Pink Hydrogen**: CI: 0-1 KgCo2e/KgH2\nProduced via electrolysis powered by nuclear\nenergy.\nAdd a little bit of body text\n\n→ **Brown Hydrogen**: CI: 16-20 KgCo2e/KgH2\nProduced via natural gas reforming with carbon\ncapture and storage (CCS) to reduce emissions.\nAdd a little bit of body text\n\n→ **Gold Hydrogen**: CI: 1-3 KgCo2e/KgH2\nNaturally occurring hydrogen found underground is\nformed through geological processes like radiolysis and\nserpentinization.\n\n<a id='0995038e-b6cb-4157-a1fd-32e81e48c262'></a>\n\n<::An illustration of laboratory equipment on a blue shelf. From left to right, there is a light blue Erlenmeyer flask, a dark blue microscope, a clear flask with red liquid, a test tube rack holding three test tubes (one with green liquid, one empty, one with red liquid), and a green book.: figure::>\n\n<a id='8362beb0-73ff-4739-b48e-35f745f7658a'></a>\n\nHydrogen Production\nTechnologies\n\n<a id='f1fb343e-410a-4b10-a80e-18d1c8c35751'></a>\n\nPEM (Proton Exchange Membrane):\nHigh efficiency, expensive. TRL: 8 ARL:7 Cost: $5-$6/KgH2\nAlkaline:\nLower cost, established technology. TRL: 9 ARL:8 Cost: $5-$10/KgH2\n\n<a id='8d5ddb38-2f1a-4ba7-9108-5b9b41d3e822'></a>\n\nSOEC (Solid Oxide Electrolysis Cell):\nHigh-temperature process, suitable for integration with\nwaste heat. TRL: 6 ARL: 5 Cost: $4-$8/KgH2\n\n<a id='1f7caf89-9eb3-4940-bbd2-508900398a90'></a>\n\nSteam Methane Reforming (SMR):\nConverts methane and steam to hydrogen; common but\nemits CO2. TRL: 9 ARL: 8 Cost: $2-$3/KgH2\n\n<a id='988f0187-7741-4119-a09c-ef7c4ceaf1e2'></a>\n\n## Autothermal Reforming (ATR):\nSimilar to SMR but uses oxygen and allows easier integration with CCS. TRL: 8 ARL: 7 Cost: $1-$2/KgH2\n\n<a id='169d0fca-0f16-47cf-8b8b-01d24e080643'></a>\n\nMethane Pyrolysis:\nDecomposes methane into hydrogen and solid carbon. TRL: 6 ARL: 4 Cost: $1-$2/KgH2\n\n<a id='11ac99ec-c242-423c-ad55-4e610ff8109c'></a>\n\n**Biomass Gasification:**\nRenewable but feedstock dependent. TRL: 6 ARL: 5\n**Cost:** $1-$2/KgH2\n\n<a id='7e54651f-7f3e-4d4d-81a9-37e12b569f4b'></a>\n\n**Photocatalytic Splitting:**\nEarly Stage but promising for green hydrogen\nTRL: 3 ARL:3 Cost: $10-$15/KgH2\n\n<a id='5e9b5819-cbe4-4981-9d2c-d5d5829d2167'></a>\n\nNuclear-Thermal Hydrogen Production\nUses heat from nuclear reactors to drive water-\nsplitting reactions TRL: 6 ARL:5 Cost: $2-$4/KgH2\n\n<a id='65f1c1e9-0ad4-4bc6-ad72-5eee4a4133ba'></a>\n\n# Storage Methods\n\n**Compressed Gas:**\nStored in high-pressure tanks\n(350–700 bar). Cost $1M-$40M\n\n**Liquid Hydrogen:**\nCooled to -253°C; dense but energy-\nintensive. Cost $50M-$80M\n\n**Metal Hydrides:**\nAbsorbed and released from\nmetal alloys. Cost $10M-$90M\n\n**Ammonia (NH3):**\nHydrogen carrier; easier storage\nand transport. Cost $30-$80M\n\n**LOHCs**\n(Liquid Organic Hydrogen Carriers):\nHydrogen bound to liquid\nmolecules for safer handling\nCost $5M-$50M\n\n<a id='3c055a95-b46c-4109-a71e-c2e03ee4a075'></a>\n\nApplications\n\n<a id='09007b55-d69f-470f-840c-354c36ac2623'></a>\n\nEnergy Storage:\nStores excess renewable energy\nfor grid balancing.\n\n<a id='c43357d4-e505-4941-8c54-d6a98c5147ed'></a>\n\nFuel Cells:\nConverts hydrogen to electricity\n(e.g., PEMFC, SOFC).\n\n<a id='a1a45da8-e13c-40f4-a921-a89c41823866'></a>\n\nTransport: Hydrogen cars\n(FCEVs):\nToyota Mirai, Hyundai Nexo.\nTrucks, buses, trains, and aviation\n(hydrogen planes).\n\n<a id='9b0d3050-7843-4ed0-9daa-b7b9a7ec67fc'></a>\n\nIndustrial Uses:\nSteel production (direct reduction of\niron ore with hydrogen). Chemical\nmanufacturing (ammonia,\nmethanol).\n\n<a id='d99bab4c-8f99-452a-a9e2-1473e57a3db7'></a>\n\nPower Generation:\nHydrogen turbines in power plants.\nBlending hydrogen with natural gas.\n\n<a id='9b2942b7-0707-461b-9892-de28a63c9135'></a>\n\n# Advantages\n* Zero emissions when used in fuel cells.\n* High energy density (3x gasoline by mass).\n* Potential to decarbonize hard-to-abate sectors.\n\n# Challenges\n## Cost\nGreen hydrogen costs $3-7/kg; needs to drop below $2/kg for competitiveness.\n\n## Infrastructure\nLimited refueling stations, transport, and storage facilities.\n\n## Energy Losses:\nConversion processes (e.g., electrolysis, compression) reduce efficiency.\n\n## Material Durability:\nHydrogen embrittlement in pipelines and storage tanks.\n\n<a id='a4b5301f-bdea-419a-8b84-04b8b1ac9341'></a>\n\n# Transportation Options\n\n## Pipelines:\nExisting natural gas pipelines can be retrofitted. Cost: **$50M-$500M**\n\n## Cryogenic Tanks:\nFor liquid hydrogen transport. Cost:**$10M-$150M**\n\n## Ammonia Shipping:\nAmmonia as a carrier for hydrogen\nexport. Cost: **$50M-$150M**\n\n<a id='f9842230-3817-478d-89c7-4f01b91bd48a'></a>\n\nKey Policies and\nIncentives\n\n**Inflation Reduction Act (IRA):**\n* Offers tax credits of up to $3/kg H₂ for green hydrogen production, depending on the carbon intensity (CI) of the hydrogen produced.\n* Additional funding supports hydrogen hubs and infrastructure development.\n* Focused on scaling green hydrogen and deploying CCS for blue hydrogen.\n\n**European Hydrogen Strategy**\n* Targets the production of 10 million tons of renewable hydrogen per year by 2030.\n* Provides subsidies for electrolysis projects and funding for hydrogen infrastructure (e.g., refueling stations and hydrogen pipelines).\n* Strong emphasis on cross-border cooperation and a hydrogen backbone for Europe.\n\n**Japan's Hydrogen Roadmap:**\n* Japan plans to import hydrogen as ammonia from countries like Australia to meet domestic energy needs.\n* Targets 20% hydrogen blending in gas turbines by 2030 and substantial expansion of hydrogen refueling stations.\n\n<a id='b29de4bf-7d76-473d-af51-4b8043f72496'></a>\n\nMetrics to Watch\n\nLevelized Cost of\nHydrogen (LCOE) and\nCAPEX/OPEX:\n\n<a id='71e2b257-e859-40e4-8374-86e6179650cf'></a>\n\n<::LCOe-fuel Sensitivity to Capex and LCOE Changes\n: chart\n: This contour plot shows the LCOe-fuel sensitivity to changes in Capex and LCOE. The x-axis represents \"Capex Change (%)\" ranging from -20 to 20. The y-axis represents \"LCOE Change (%)\" ranging from -20 to 20. The color gradient indicates the \"LCOe-fuel (€/l)\" values, with a legend on the right side ranging from 2.56 (dark red) to 3.68 (dark blue). The plot shows diagonal bands of color, indicating how LCOe-fuel changes with varying Capex and LCOE percentages.::>\n\n<a id='36e01278-c175-4f2a-b724-9c2bf4a9ade2'></a>\n\nProduction Cost:\n* Green: $3-$7/Kg H2\n* Blue: $2-$3/Kg H2\n* Grey: $1-$2/Kg H2\n* Turquoise: $3-$5/Kg H2\n* Pink: $2-$5/Kg H2\n* Brown: $1-$3/Kg H2\n* Gold: $1-$5/Kg H2",
+      "chunks": [
+        "e0eeee0e-36d1-4252-895c-5517d47eb2e5",
+        "1482e5d8-0f43-43d7-9ad3-849eb4c59a09",
+        "0995038e-b6cb-4157-a1fd-32e81e48c262",
+        "8362beb0-73ff-4739-b48e-35f745f7658a",
+        "f1fb343e-410a-4b10-a80e-18d1c8c35751",
+        "8d5ddb38-2f1a-4ba7-9108-5b9b41d3e822",
+        "1f7caf89-9eb3-4940-bbd2-508900398a90",
+        "988f0187-7741-4119-a09c-ef7c4ceaf1e2",
+        "169d0fca-0f16-47cf-8b8b-01d24e080643",
+        "11ac99ec-c242-423c-ad55-4e610ff8109c",
+        "7e54651f-7f3e-4d4d-81a9-37e12b569f4b",
+        "5e9b5819-cbe4-4981-9d2c-d5d5829d2167",
+        "65f1c1e9-0ad4-4bc6-ad72-5eee4a4133ba",
+        "3c055a95-b46c-4109-a71e-c2e03ee4a075",
+        "09007b55-d69f-470f-840c-354c36ac2623",
+        "c43357d4-e505-4941-8c54-d6a98c5147ed",
+        "a1a45da8-e13c-40f4-a921-a89c41823866",
+        "9b0d3050-7843-4ed0-9daa-b7b9a7ec67fc",
+        "d99bab4c-8f99-452a-a9e2-1473e57a3db7",
+        "9b2942b7-0707-461b-9892-de28a63c9135",
+        "a4b5301f-bdea-419a-8b84-04b8b1ac9341",
+        "f9842230-3817-478d-89c7-4f01b91bd48a",
+        "b29de4bf-7d76-473d-af51-4b8043f72496",
+        "71e2b257-e859-40e4-8374-86e6179650cf",
+        "36e01278-c175-4f2a-b724-9c2bf4a9ade2"
+      ]
+    }
+  ],
+  "grounding": {
+    "e0eeee0e-36d1-4252-895c-5517d47eb2e5": {
+      "box": {
+        "left": 0.32875365018844604,
+        "top": 0.0026394184678792953,
+        "right": 0.6331921815872192,
+        "bottom": 0.03321618586778641
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "1482e5d8-0f43-43d7-9ad3-849eb4c59a09": {
+      "box": {
+        "left": 0.004304058849811554,
+        "top": 0.031345248222351074,
+        "right": 0.2293701171875,
+        "bottom": 0.8509541749954224
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "0995038e-b6cb-4157-a1fd-32e81e48c262": {
+      "box": {
+        "left": 0.0008498728275299072,
+        "top": 0.8777559995651245,
+        "right": 0.2279018610715866,
+        "bottom": 0.9975742101669312
+      },
+      "page": 0,
+      "type": "chunkFigure"
+    },
+    "8362beb0-73ff-4739-b48e-35f745f7658a": {
+      "box": {
+        "left": 0.24176569283008575,
+        "top": 0.03525766357779503,
+        "right": 0.4355927109718323,
+        "bottom": 0.11048871278762817
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "f1fb343e-410a-4b10-a80e-18d1c8c35751": {
+      "box": {
+        "left": 0.23264256119728088,
+        "top": 0.11286703497171402,
+        "right": 0.4433300793170929,
+        "bottom": 0.2892135977745056
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "8d5ddb38-2f1a-4ba7-9108-5b9b41d3e822": {
+      "box": {
+        "left": 0.23145374655723572,
+        "top": 0.3026629388332367,
+        "right": 0.4400372803211212,
+        "bottom": 0.3783799111843109
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "1f7caf89-9eb3-4940-bbd2-508900398a90": {
+      "box": {
+        "left": 0.23191633820533752,
+        "top": 0.39296066761016846,
+        "right": 0.4411015808582306,
+        "bottom": 0.4679456949234009
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "988f0187-7741-4119-a09c-ef7c4ceaf1e2": {
+      "box": {
+        "left": 0.23144212365150452,
+        "top": 0.48306185007095337,
+        "right": 0.4360524117946625,
+        "bottom": 0.5556555390357971
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "169d0fca-0f16-47cf-8b8b-01d24e080643": {
+      "box": {
+        "left": 0.2323014736175537,
+        "top": 0.5707725286483765,
+        "right": 0.4109484553337097,
+        "bottom": 0.6442111730575562
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "11ac99ec-c242-423c-ad55-4e610ff8109c": {
+      "box": {
+        "left": 0.23235714435577393,
+        "top": 0.659389317035675,
+        "right": 0.43101269006729126,
+        "bottom": 0.733371913433075
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "7e54651f-7f3e-4d4d-81a9-37e12b569f4b": {
+      "box": {
+        "left": 0.2322775423526764,
+        "top": 0.75533527135849,
+        "right": 0.4216947853565216,
+        "bottom": 0.8298822045326233
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "5e9b5819-cbe4-4981-9d2c-d5d5829d2167": {
+      "box": {
+        "left": 0.23306989669799805,
+        "top": 0.8508530855178833,
+        "right": 0.4477314352989197,
+        "bottom": 0.927943229675293
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "65f1c1e9-0ad4-4bc6-ad72-5eee4a4133ba": {
+      "box": {
+        "left": 0.4524258077144623,
+        "top": 0.03597727417945862,
+        "right": 0.592118501663208,
+        "bottom": 0.45355021953582764
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "3c055a95-b46c-4109-a71e-c2e03ee4a075": {
+      "box": {
+        "left": 0.46186667680740356,
+        "top": 0.472265362739563,
+        "right": 0.5600565075874329,
+        "bottom": 0.5146470069885254
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "09007b55-d69f-470f-840c-354c36ac2623": {
+      "box": {
+        "left": 0.46041396260261536,
+        "top": 0.5455262064933777,
+        "right": 0.5758202075958252,
+        "bottom": 0.6092947125434875
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "c43357d4-e505-4941-8c54-d6a98c5147ed": {
+      "box": {
+        "left": 0.46012869477272034,
+        "top": 0.6198233366012573,
+        "right": 0.5738205909729004,
+        "bottom": 0.6862955093383789
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "a1a45da8-e13c-40f4-a921-a89c41823866": {
+      "box": {
+        "left": 0.4611513912677765,
+        "top": 0.6925056576728821,
+        "right": 0.5840116143226624,
+        "bottom": 0.7892197966575623
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "9b0d3050-7843-4ed0-9daa-b7b9a7ec67fc": {
+      "box": {
+        "left": 0.4605262875556946,
+        "top": 0.8030967712402344,
+        "right": 0.5861592888832092,
+        "bottom": 0.896638035774231
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "d99bab4c-8f99-452a-a9e2-1473e57a3db7": {
+      "box": {
+        "left": 0.460337370634079,
+        "top": 0.9100469350814819,
+        "right": 0.5860419869422913,
+        "bottom": 0.9728748798370361
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "9b2942b7-0707-461b-9892-de28a63c9135": {
+      "box": {
+        "left": 0.5954926013946533,
+        "top": 0.03659060597419739,
+        "right": 0.8435045480728149,
+        "bottom": 0.5380133390426636
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "a4b5301f-bdea-419a-8b84-04b8b1ac9341": {
+      "box": {
+        "left": 0.6010975241661072,
+        "top": 0.5660794377326965,
+        "right": 0.8423735499382019,
+        "bottom": 0.9907624125480652
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "f9842230-3817-478d-89c7-4f01b91bd48a": {
+      "box": {
+        "left": 0.8449757099151611,
+        "top": 0.035255178809165955,
+        "right": 0.9984728097915649,
+        "bottom": 0.3947717547416687
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "b29de4bf-7d76-473d-af51-4b8043f72496": {
+      "box": {
+        "left": 0.8473836183547974,
+        "top": 0.40258780121803284,
+        "right": 0.9956238269805908,
+        "bottom": 0.5412857532501221
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "71e2b257-e859-40e4-8374-86e6179650cf": {
+      "box": {
+        "left": 0.8481009006500244,
+        "top": 0.5455266833305359,
+        "right": 0.9933855533599854,
+        "bottom": 0.7554619908332825
+      },
+      "page": 0,
+      "type": "chunkFigure"
+    },
+    "36e01278-c175-4f2a-b724-9c2bf4a9ade2": {
+      "box": {
+        "left": 0.8509407639503479,
+        "top": 0.7630089521408081,
+        "right": 0.9983003735542297,
+        "bottom": 0.9993351697921753
+      },
+      "page": 0,
+      "type": "chunkText"
+    }
+  },
+  "metadata": {
+    "filename": "Cheat Sheet Hydrogen (1).pdf",
+    "org_id": null,
+    "page_count": 1,
+    "duration_ms": 25358,
+    "credit_usage": 3,
+    "job_id": "qpp4g765am6mcr4ibvzstbpon",
+    "version": "dpt-2-20250919"
+  }
+}
