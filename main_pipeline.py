@@ -1,17 +1,17 @@
-# main_pipeline.py
 import os
 import certifi
 from dotenv import load_dotenv
 from neo4j import GraphDatabase
 from langchain_neo4j import Neo4jGraph
 from langchain_openai import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate 
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
 from pydantic import BaseModel, Field
 from typing import List
-from dotenv import load_dotenv
+
 load_dotenv()
+
 
 
 # Load environment variables
