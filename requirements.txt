@@ -1,18 +1,13 @@
-# --- Core UI ---
-streamlit
-
-# --- LangChain ecosystem ---
 langchain
 langchain-community
 langchain-openai
 langchain-experimental
 langchain-neo4j
-
-# --- Database + Environment ---
 neo4j
+streamlit
 python-dotenv
-
-# --- Helpers ---
+bs4
 requests
+jq
 numpy
-pandas
+yfiles-jupyter-graphs
